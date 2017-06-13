@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PokerTH>
+  <CardDeck>
+	<StyleDescription value="TEAM POKER® default card deck" />
+	<StyleMaintainerName value="TEAM POKER® Development Team" />
+        <StyleMaintainerEMail value="teampoker@teampoker.com" />
+	<StyleCreateDate value="07.10.2015" />
+	<PokerTHStyleFileVersion value="2" />
+	<Preview value="preview.png" />
+	<BigIndexesActionBottom value="0" />
+  </CardDeck>
+</PokerTH>

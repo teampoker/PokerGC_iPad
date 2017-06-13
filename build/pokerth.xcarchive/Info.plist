@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplicationProperties</key>
+	<dict>
+		<key>ApplicationPath</key>
+		<string>Applications/pokerth.app</string>
+		<key>CFBundleIdentifier</key>
+		<string>myself.pokerth</string>
+		<key>CFBundleShortVersionString</key>
+		<string>1.0</string>
+		<key>CFBundleVersion</key>
+		<string>1.0</string>
+		<key>SigningIdentity</key>
+		<string>iPhone Distribution: Riccardo Espis (JZ5FCN4B97)</string>
+	</dict>
+	<key>ArchiveVersion</key>
+	<integer>2</integer>
+	<key>CreationDate</key>
+	<date>2016-09-08T14:49:21Z</date>
+	<key>DefaultToolchainInfo</key>
+	<dict>
+		<key>DisplayName</key>
+		<string>Xcode 7.3.1 Default</string>
+		<key>Identifier</key>
+		<string>com.apple.dt.toolchain.XcodeDefault</string>
+	</dict>
+	<key>Name</key>
+	<string>pokerth</string>
+	<key>SchemeName</key>
+	<string>pokerth</string>
+</dict>
+</plist>

@@ -1,0 +1,2711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3 -f pokerth_lib.xcodeproj/qt_makeqmake.mak";
+		};
+		F3D2CAB6418453FF6780A43A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/game.cpp";
+			name = "game.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3A9476DDA4416F564F351839 = {
+			fileRef = "F3D2CAB6418453FF6780A43A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CCB41C2B07B046A7FCED1EF0 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/session.cpp";
+			name = "session.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F22B19FD630A61C112599A37 = {
+			fileRef = "CCB41C2B07B046A7FCED1EF0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BDA6F22D9A48F8ADBB94FCAB = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/playerdata.cpp";
+			name = "playerdata.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8EDE2E5C98C7EBF56706A408 = {
+			fileRef = "BDA6F22D9A48F8ADBB94FCAB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3CA462641FE638E18DB047CB = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/config/configfile.cpp";
+			name = "configfile.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AA174A95AFB6BC4DEDB9C7E3 = {
+			fileRef = "3CA462641FE638E18DB047CB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C1128CB9B863CD48C1DE63F4 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/boardinterface.cpp";
+			name = "boardinterface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4C3A39618AD27676E5ABA15B = {
+			fileRef = "C1128CB9B863CD48C1DE63F4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		853E2CA733EF8BF5496C1FAF = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/enginefactory.cpp";
+			name = "enginefactory.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AF883FDFC3A1788189589449 = {
+			fileRef = "853E2CA733EF8BF5496C1FAF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CFADA8DDA26E9C2202EE4885 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/handinterface.cpp";
+			name = "handinterface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E697945A0F36F438401471C5 = {
+			fileRef = "CFADA8DDA26E9C2202EE4885";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		BDABC0AA8EAC0CB43FE4B610 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/playerinterface.cpp";
+			name = "playerinterface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		04E3DE4D1EBF71EA363FD59B = {
+			fileRef = "BDABC0AA8EAC0CB43FE4B610";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		96CF764DFBA38744A7B04E72 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/berointerface.cpp";
+			name = "berointerface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		62F9C947E647B60828F6B18E = {
+			fileRef = "96CF764DFBA38744A7B04E72";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D81500AED956A3209DDAEF6B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gui/guiinterface.cpp";
+			name = "guiinterface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6974212CDB3028E0F5461E2A = {
+			fileRef = "D81500AED956A3209DDAEF6B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3C23C3541C0C117124EF7382 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/common/thread.cpp";
+			name = "thread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		98D228D84FC23272F4EB0AAA = {
+			fileRef = "3C23C3541C0C117124EF7382";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3567072C7EC17258D3E2E144 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/common/crypthelper.cpp";
+			name = "crypthelper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		495772B63432AF3425BC7435 = {
+			fileRef = "3567072C7EC17258D3E2E144";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6B123A8F450CD4C48EBC758B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/common/avatarmanager.cpp";
+			name = "avatarmanager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2AF1DD6985217B9175462E4F = {
+			fileRef = "6B123A8F450CD4C48EBC758B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		98BF3F25CEA0925655B25C20 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/common/pokerthexception.cpp";
+			name = "pokerthexception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A5DF4696E9AAFB80382A8ACC = {
+			fileRef = "98BF3F25CEA0925655B25C20";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DABD7577055EA5BD5A4EBE74 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/cardsvalue.cpp";
+			name = "cardsvalue.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9D0BBD28575D79557B891612 = {
+			fileRef = "DABD7577055EA5BD5A4EBE74";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		92CF5A22E4644816CA9C32C4 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localboard.cpp";
+			name = "localboard.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B592D4E2118965175B5C2677 = {
+			fileRef = "92CF5A22E4644816CA9C32C4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		46CF98FFB4C74E973DD9F71A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localenginefactory.cpp";
+			name = "localenginefactory.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7BA2E872EE448A8CB21A05D5 = {
+			fileRef = "46CF98FFB4C74E973DD9F71A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		6523566F4BB5CE486BF490E0 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localhand.cpp";
+			name = "localhand.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		1974A103D28B91127B9A0549 = {
+			fileRef = "6523566F4BB5CE486BF490E0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E17104EC62A0ADE0E2349896 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localplayer.cpp";
+			name = "localplayer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		2DA819073FC32A118BDB67EA = {
+			fileRef = "E17104EC62A0ADE0E2349896";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		29FFB23EE36896267CCF94C6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberopreflop.cpp";
+			name = "localberopreflop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		423638207568EC78C0205DF1 = {
+			fileRef = "29FFB23EE36896267CCF94C6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E4D19D507E77B8D5C219ED46 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberoflop.cpp";
+			name = "localberoflop.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		359DC837CF26C27989FFE004 = {
+			fileRef = "E4D19D507E77B8D5C219ED46";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B87FB77A914A60E1228A230A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberoturn.cpp";
+			name = "localberoturn.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6A88A8D9586E15B3FA406771 = {
+			fileRef = "B87FB77A914A60E1228A230A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DEAB25E47174D7059AF89519 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberoriver.cpp";
+			name = "localberoriver.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		01123790677FF3D5E41F7CB0 = {
+			fileRef = "DEAB25E47174D7059AF89519";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A08B22BFED1E3907B36D80C2 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberopostriver.cpp";
+			name = "localberopostriver.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A13444BEF907786939DF65DD = {
+			fileRef = "A08B22BFED1E3907B36D80C2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E0BC74AF8031F324693AD7AC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localbero.cpp";
+			name = "localbero.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CC1DA19574D9C4B9AB2C4615 = {
+			fileRef = "E0BC74AF8031F324693AD7AC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9FA846C99FC72ED44EAEB5F0 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localexception.cpp";
+			name = "localexception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CB385CA4A76438AD3956CEDA = {
+			fileRef = "9FA846C99FC72ED44EAEB5F0";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4C265086A2688DB3D4D2B6F7 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/arraydata.cpp";
+			name = "arraydata.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FB800F25BA53F0A99F126D54 = {
+			fileRef = "4C265086A2688DB3D4D2B6F7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A325280DD8C7243943B2F5B5 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/tools_ios.cpp";
+			name = "tools_ios.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0F4A58F364DA2DF5FFF8217E = {
+			fileRef = "A325280DD8C7243943B2F5B5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0E931D493F23A17EB0E4869D = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/log.cpp";
+			name = "log.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		ED593B2027D2D8015B7930A2 = {
+			fileRef = "0E931D493F23A17EB0E4869D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8424A04E1F0A020A700148D6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientboard.cpp";
+			name = "clientboard.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CFDD6BEBE1C60FEA71189F46 = {
+			fileRef = "8424A04E1F0A020A700148D6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		2C586B2647A73FAAAAA5BB93 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientenginefactory.cpp";
+			name = "clientenginefactory.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		60D5DCC6EFFA0584E8CDE995 = {
+			fileRef = "2C586B2647A73FAAAAA5BB93";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8D52A81C99EA66F1C3CD473B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clienthand.cpp";
+			name = "clienthand.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AA9C8F13333C6AFE1AE99FF9 = {
+			fileRef = "8D52A81C99EA66F1C3CD473B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1FFDCF2D54CD3F42B6113571 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientplayer.cpp";
+			name = "clientplayer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C959DB04A02F7AB5C7AB9964 = {
+			fileRef = "1FFDCF2D54CD3F42B6113571";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		18D345BF6EC70BCF21A5F2D2 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientbero.cpp";
+			name = "clientbero.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5CD72B3329A00A28E54DB14C = {
+			fileRef = "18D345BF6EC70BCF21A5F2D2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		77BB9A157A1C15BA631E5E34 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/chatcleanermanager.cpp";
+			name = "chatcleanermanager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		58DDD3A7BE9FAAA0EBBF868F = {
+			fileRef = "77BB9A157A1C15BA631E5E34";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		52965740AEA3E00FDAC584DC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/chatcleanercallback.cpp";
+			name = "chatcleanercallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		588FC519CA14D01AE51BB7C6 = {
+			fileRef = "52965740AEA3E00FDAC584DC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CB9F4C820790CF62F72A3046 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/clientcallback.cpp";
+			name = "clientcallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3A894A6F6E5453C5A7E5190E = {
+			fileRef = "CB9F4C820790CF62F72A3046";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8C6593432ED21663CF1CC90E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/clientcontext.cpp";
+			name = "clientcontext.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		485DFE07B2B297212937A31C = {
+			fileRef = "8C6593432ED21663CF1CC90E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EAF21F1EDC72D1E8CEADEF8E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/clientstate.cpp";
+			name = "clientstate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		493EB8FB4C5337D82DDEAFD1 = {
+			fileRef = "EAF21F1EDC72D1E8CEADEF8E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		ED61E620FA0A3CDA0D224E6E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/clientthread.cpp";
+			name = "clientthread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		66169187488439A220F3028D = {
+			fileRef = "ED61E620FA0A3CDA0D224E6E";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		3C19AA2A04F442F7FFD8A687 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/downloadhelper.cpp";
+			name = "downloadhelper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5C795F22DF873B79720CD272 = {
+			fileRef = "3C19AA2A04F442F7FFD8A687";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		797B0B77B4F5FDD4805E7B22 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/downloaderthread.cpp";
+			name = "downloaderthread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6A22ED868EDC0BE69AE59B5B = {
+			fileRef = "797B0B77B4F5FDD4805E7B22";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		4C3287E464594FE28CF35567 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/netpacket.cpp";
+			name = "netpacket.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		682A3BEFBB08EBAD16C15B70 = {
+			fileRef = "4C3287E464594FE28CF35567";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E070D13B4574281BF56ABCEF = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/netpacketvalidator.cpp";
+			name = "netpacketvalidator.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		CCEAC2A1EDE49FC6FBE4D5F9 = {
+			fileRef = "E070D13B4574281BF56ABCEF";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		08A5414BB80C407F35AD216C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/senderhelper.cpp";
+			name = "senderhelper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7A9EBA66E67E94765DE2FBF9 = {
+			fileRef = "08A5414BB80C407F35AD216C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		AD151791D58318439B9251A5 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/sendercallback.cpp";
+			name = "sendercallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		257C9006644504BD2DC4B3D8 = {
+			fileRef = "AD151791D58318439B9251A5";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F0087CA13B60E42F67DA1A7A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serverexception.cpp";
+			name = "serverexception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7522B00DB22888B7D49D6953 = {
+			fileRef = "F0087CA13B60E42F67DA1A7A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9E8284FE04054EF15486A458 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serveracceptinterface.cpp";
+			name = "serveracceptinterface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		11A25AAF1C5442F5C4ED9655 = {
+			fileRef = "9E8284FE04054EF15486A458";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		32F265B65F527CD490A7D481 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serveracceptwebhelper.cpp";
+			name = "serveracceptwebhelper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		3510EE0CA265DC392029D8E8 = {
+			fileRef = "32F265B65F527CD490A7D481";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		33801ADCEE3A3D68D77B6AB2 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/servergame.cpp";
+			name = "servergame.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9C847FA4C9CE09E72145C2E2 = {
+			fileRef = "33801ADCEE3A3D68D77B6AB2";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B7EA51B0AC7CBB9130B10484 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/servergamestate.cpp";
+			name = "servergamestate.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A1C365A84C29D4B230DC33FE = {
+			fileRef = "B7EA51B0AC7CBB9130B10484";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EF5582EDDD306D5D3C6A5793 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serverlobbythread.cpp";
+			name = "serverlobbythread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4223B77A165D6AEFFC9C0A29 = {
+			fileRef = "EF5582EDDD306D5D3C6A5793";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D980989426452B877D5E3D99 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serverbanmanager.cpp";
+			name = "serverbanmanager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		31BDF813CDD0D85725047055 = {
+			fileRef = "D980989426452B877D5E3D99";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1C5952F6C4E7D9FCBDFFC65B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/servercallback.cpp";
+			name = "servercallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		08C94D419342C0BCD0245806 = {
+			fileRef = "1C5952F6C4E7D9FCBDFFC65B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		EE56F651CB6737E133BFF1C7 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serveradminbot.cpp";
+			name = "serveradminbot.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A5345D6948FB45C67A2247D0 = {
+			fileRef = "EE56F651CB6737E133BFF1C7";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		154010B764698A7145BAA087 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serverlobbybot.cpp";
+			name = "serverlobbybot.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		80C56E38D949600E104B9114 = {
+			fileRef = "154010B764698A7145BAA087";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F776853CF186F0BFC52C06A1 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/serverircbotcallback.cpp";
+			name = "serverircbotcallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		8CC3EC7F35448CD7EC8CC2CD = {
+			fileRef = "F776853CF186F0BFC52C06A1";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		D16D6192CC46A77EB62D2520 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/sessiondata.cpp";
+			name = "sessiondata.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F413F1E61BAF8BC1E6E7B129 = {
+			fileRef = "D16D6192CC46A77EB62D2520";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1800FC562450133A30F5BA7C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/sessiondatacallback.cpp";
+			name = "sessiondatacallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A62354C440F5C49F1E949D4F = {
+			fileRef = "1800FC562450133A30F5BA7C";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7B55E90D3C582CF64BE5F136 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/sessionmanager.cpp";
+			name = "sessionmanager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		900D57CF769EF9EE48D5EC67 = {
+			fileRef = "7B55E90D3C582CF64BE5F136";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		C9F2A31EE0EB6F6B64BEA9E3 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/socket_startup.cpp";
+			name = "socket_startup.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		449C7183D302DD2B27347985 = {
+			fileRef = "C9F2A31EE0EB6F6B64BEA9E3";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		522D5E2B1B5A87074C0A5885 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/clientexception.cpp";
+			name = "clientexception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4010E1EBF87D4D14EE41D806 = {
+			fileRef = "522D5E2B1B5A87074C0A5885";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		DD626EDA978A179A6081D38F = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/netcontext.cpp";
+			name = "netcontext.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		48456B58EDA93D86F0C0A4D4 = {
+			fileRef = "DD626EDA978A179A6081D38F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		887457EE6DA453E4923EDC63 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/netexception.cpp";
+			name = "netexception.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		FC1224360EE0C5EBC2D42F9F = {
+			fileRef = "887457EE6DA453E4923EDC63";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1B7CEB9CB3F4E37F505D78DC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/irccallback.cpp";
+			name = "irccallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C0C5560F151FD859F1D5C991 = {
+			fileRef = "1B7CEB9CB3F4E37F505D78DC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		00D0F2FE1258BA42B429D760 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/servermanager.cpp";
+			name = "servermanager.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6D3CD46DCE5A3962AF399E72 = {
+			fileRef = "00D0F2FE1258BA42B429D760";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1C59A16B409F8E488C934253 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/transferhelper.cpp";
+			name = "transferhelper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		7AEC5B4484D0BD3CF5087037 = {
+			fileRef = "1C59A16B409F8E488C934253";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A56102FB3F2F9C44277B9941 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/uploaderthread.cpp";
+			name = "uploaderthread.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0E2D9D59F369FEEE18289967 = {
+			fileRef = "A56102FB3F2F9C44277B9941";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		1151102D90DC183032408B90 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/uploadhelper.cpp";
+			name = "uploadhelper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		36C219759F64813DFBB5E501 = {
+			fileRef = "1151102D90DC183032408B90";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		E99EA52482FF33B96FB439F9 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gui/generic/serverguiwrapper.cpp";
+			name = "serverguiwrapper.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9123F5340D60DF17282BCC70 = {
+			fileRef = "E99EA52482FF33B96FB439F9";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0ADA37F39A7B383EA813164A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gui/qttoolsinterface.cpp";
+			name = "qttoolsinterface.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6B2DC3819374E68902E3A362 = {
+			fileRef = "0ADA37F39A7B383EA813164A";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		8B3C871830BE9DE275B275AC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/sendbuffer.cpp";
+			name = "sendbuffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6A0CE41379E9ECD3629BC54B = {
+			fileRef = "8B3C871830BE9DE275B275AC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		181354DD8DF129A80C479BC8 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/asiosendbuffer.cpp";
+			name = "asiosendbuffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		DEEEF3FDCCE6773EA3763036 = {
+			fileRef = "181354DD8DF129A80C479BC8";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		9CD6F3B18CC37C0630848C92 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/websendbuffer.cpp";
+			name = "websendbuffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		22D615FABCC19628495B45D7 = {
+			fileRef = "9CD6F3B18CC37C0630848C92";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		CABA8A67BC5ED3E33D0C6A8F = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/receivebuffer.cpp";
+			name = "receivebuffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		0BA1BEE896BCAA893D8460F7 = {
+			fileRef = "CABA8A67BC5ED3E33D0C6A8F";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		966892A7F1012F53F2BFA359 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/asioreceivebuffer.cpp";
+			name = "asioreceivebuffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B6DF167583427DBC8551B6DA = {
+			fileRef = "966892A7F1012F53F2BFA359";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		0AB9AAB2D985B0EE05E6CE99 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/webreceivebuffer.cpp";
+			name = "webreceivebuffer.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		F4FEC6FF9FDB54A7F771601D = {
+			fileRef = "0AB9AAB2D985B0EE05E6CE99";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5897ACB9D4E55D099EF68CFB = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/common/uploadcallback.cpp";
+			name = "uploadcallback.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		4E1785B199BB780B19FF37F2 = {
+			fileRef = "5897ACB9D4E55D099EF68CFB";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		970CA6C9BF1DB15C95A4225B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/game.h";
+			name = "game.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		723D206C2D092C123B05D816 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/session.h";
+			name = "session.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		32B372BC2C04BB09BBE85C4C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/playerdata.h";
+			name = "playerdata.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C04E8CD7499A04916A9E93E8 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gamedata.h";
+			name = "gamedata.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F48EA94E1B4E456E20A8CC64 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/config/configfile.h";
+			name = "configfile.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7721D0D149D34EDC7F673AAD = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/thread.h";
+			name = "thread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A10FF55A3B2ED6FFD7487313 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/crypthelper.h";
+			name = "crypthelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DF18F5190E01FB026FAACE4E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/avatarmanager.h";
+			name = "avatarmanager.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		087ABE1AF083D017D68AD700 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/pokerthexception.h";
+			name = "pokerthexception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		87025C352A50DDDBB9A80FFF = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/boardinterface.h";
+			name = "boardinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		596C9CB4E7EA0CDBD1C19F0C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/enginefactory.h";
+			name = "enginefactory.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4AC2C228BFD5E73A5ABDFA16 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/handinterface.h";
+			name = "handinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		47E2F425F144B8214B717BB6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/playerinterface.h";
+			name = "playerinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		58E40ED616D2DDF50DABCFEE = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/berointerface.h";
+			name = "berointerface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B72B26B20C0208EF06410EBB = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gui/guiinterface.h";
+			name = "guiinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3D251FB6E0A98976B54817D6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/chatcleanermanager.h";
+			name = "chatcleanermanager.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B9AD3BBE78CC885A04AF2831 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/chatcleanercallback.h";
+			name = "chatcleanercallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B21D8465B2795F5A4DBA004B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/clientcallback.h";
+			name = "clientcallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		02F3740EFD79DF93F67FFA84 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/clientcontext.h";
+			name = "clientcontext.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2962421760A9CDA1D78D0F65 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/clientexception.h";
+			name = "clientexception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		66CCB5D1732BE8608E418287 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/netcontext.h";
+			name = "netcontext.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3DFF54CD592F5D44184D6F08 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/clientstate.h";
+			name = "clientstate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		464988B6487BD92B076A7642 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/clientthread.h";
+			name = "clientthread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A45D2468CCCE5CF8A7CF7710 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/genericsocket.h";
+			name = "genericsocket.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3BF086AF43DB6FDE2F10FAFD = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/netpacket.h";
+			name = "netpacket.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		766DB75CC2B53C74AFDF1872 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/netpacketvalidator.h";
+			name = "netpacketvalidator.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		7DB8872E99CB63E75EE630BA = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/senderhelper.h";
+			name = "senderhelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FD48B41A9227C2EB0FC8929A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/sendercallback.h";
+			name = "sendercallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		BC3E8102968D5EAD0744768F = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serverexception.h";
+			name = "serverexception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F6D47E5EAA30E31901BEEC6A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serveracceptinterface.h";
+			name = "serveracceptinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		43C0D9757F5735D309454A40 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serveraccepthelper.h";
+			name = "serveraccepthelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		35C7F13A260008ACFF12785A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serveracceptwebhelper.h";
+			name = "serveracceptwebhelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		569A720E254DE64DA03EA14E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/servergame.h";
+			name = "servergame.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		EC10222721CDA12DC86E7290 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/servergamestate.h";
+			name = "servergamestate.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3B46DFF653D8AAD1B6C6DFCC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serverlobbythread.h";
+			name = "serverlobbythread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		840BF2EB3A4C1438B880158C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serverbanmanager.h";
+			name = "serverbanmanager.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CFAC2F3F9024DB6C78148EC6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/servercallback.h";
+			name = "servercallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4719446739595C4693DFB469 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serveradminbot.h";
+			name = "serveradminbot.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4426163A68069FBF3072BF57 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serverlobbybot.h";
+			name = "serverlobbybot.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		703FC0BB9AF06D378FD09CE1 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/serverircbotcallback.h";
+			name = "serverircbotcallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D1D765975BB589D56118480A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/sessiondata.h";
+			name = "sessiondata.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		929225ED4C011876D296708C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/sessiondatacallback.h";
+			name = "sessiondatacallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D9D67E11A56958BC37813CA0 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/sessionmanager.h";
+			name = "sessionmanager.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		69A19269309B1C3A8338679E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/socket_helper.h";
+			name = "socket_helper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2EA151EF678148F83D30568F = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/socket_msg.h";
+			name = "socket_msg.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		749D8C0D60B3A2CE1A01D74B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/socket_startup.h";
+			name = "socket_startup.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2F79A921A361FCE9EFC97BD3 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/irccallback.h";
+			name = "irccallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6306011024A6084E4EC47A3F = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/ircthread.h";
+			name = "ircthread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DF81853766B5D23EE8529153 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/netexception.h";
+			name = "netexception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		08B8B4D06E6062F34D1F0A3D = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/servermanager.h";
+			name = "servermanager.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		230A8349FFFE723DAE55F259 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/transferdata.h";
+			name = "transferdata.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		6B7D4295D20094B30B2711C1 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/transferhelper.h";
+			name = "transferhelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A1E594AB5EC15282E1D9E9BC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/uploaderthread.h";
+			name = "uploaderthread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2A0EC4F49B15C987E1ED2ECB = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/uploadhelper.h";
+			name = "uploadhelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		873879412816977416DFE5F7 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/downloaderthread.h";
+			name = "downloaderthread.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D6C7BB0EC2ED62EDFD6CA13C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/downloadhelper.h";
+			name = "downloadhelper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DB5A5B130B86276A74F46B95 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/cardsvalue.h";
+			name = "cardsvalue.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D086B3B53F41393CD179191B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localboard.h";
+			name = "localboard.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		539A4BC67D1E3B3175CEF093 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localenginefactory.h";
+			name = "localenginefactory.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E031D4A3F36ECA2324095F31 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localhand.h";
+			name = "localhand.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		460025F8325DE2ED87940C7C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localplayer.h";
+			name = "localplayer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E4C675ED12E2347727AE9617 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberopreflop.h";
+			name = "localberopreflop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8D1EB2E1E0121BB4D4E3ABB2 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberoflop.h";
+			name = "localberoflop.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		57BAC1B0299BB7C2BD747D37 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberoturn.h";
+			name = "localberoturn.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		59CEF0B9D58FFC5E95DB1E59 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberoriver.h";
+			name = "localberoriver.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0664A7514FE0999A610F0747 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localberopostriver.h";
+			name = "localberopostriver.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9D3D7964F80CCAEE64C0ECAC = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/tools.h";
+			name = "tools.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F6C6D918956ABEAE7CE28CF6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localbero.h";
+			name = "localbero.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		906491DC62E96C2102C6EBB1 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/localexception.h";
+			name = "localexception.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2BD5A1A8914A2225C5A79AA6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/local_engine/arraydata.h";
+			name = "arraydata.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		DF6986C4A9CB95864B1BBC0D = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/log.h";
+			name = "log.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8646FA254D6D1BF6672F6A81 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientboard.h";
+			name = "clientboard.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AFC7D4E6EA50B941672CA021 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientenginefactory.h";
+			name = "clientenginefactory.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B940340E1123D47E41501169 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clienthand.h";
+			name = "clienthand.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9A3F8996038C579095E80DF4 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientplayer.h";
+			name = "clientplayer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		A3B0889036E7679FAF034216 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/engine/network_engine/clientbero.h";
+			name = "clientbero.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		4F2B2FA9FD8B4E2C111B84D7 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/db/serverdbcallback.h";
+			name = "serverdbcallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CA260FA3C1FEEBE321F37A92 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/db/serverdbfactory.h";
+			name = "serverdbfactory.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		53A64257BB4D891193E92D5A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/db/serverdbinterface.h";
+			name = "serverdbinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CCA92CDD8ABE1237BAAC0E33 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/db/serverdbgeneric.h";
+			name = "serverdbgeneric.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CBF9E43FCA067CB821D8BA44 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/db/serverdbfactorygeneric.h";
+			name = "serverdbfactorygeneric.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		C84B15D1575EF472330E8FB1 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gui/qttoolsinterface.h";
+			name = "qttoolsinterface.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F3042B33FB9D06F4E35D1FCD = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/gui/generic/serverguiwrapper.h";
+			name = "serverguiwrapper.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		CE9B3AF8F2C42B9DE742DB2C = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/receivebuffer.h";
+			name = "receivebuffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		44A5E125B0BA556C63F08057 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/asioreceivebuffer.h";
+			name = "asioreceivebuffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0EABF03D6E85CEC05E510FAD = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/webreceivebuffer.h";
+			name = "webreceivebuffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		837B3C21093ABE0C8824C86B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/sendbuffer.h";
+			name = "sendbuffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		78EB21321119BA160FD54A6A = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/asiosendbuffer.h";
+			name = "asiosendbuffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E74E824F019EDD27A1E6376F = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/websendbuffer.h";
+			name = "websendbuffer.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		2E0B0CD5DEF8D13FDF1B1533 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/servermanagerfactory.h";
+			name = "servermanagerfactory.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		893BB0A68DD881CA2B02710B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/uploadcallback.h";
+			name = "uploadcallback.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		57F0BECC4F416DCBC963A053 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/websocket_defs.h";
+			name = "websocket_defs.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		268496EFAB91F8DD015625B4 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/net/websocketdata.h";
+			name = "websocketdata.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F0EAFDA83CBE6054DDC46787 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/pokerth_lib.pro";
+			name = "pokerth_lib.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		AB745978DF0F41D1801ABDA6 = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		921315FAA7F261D737F4F4C7 = {
+			isa = PBXGroup;
+			children = (
+				"2DFD4281C990593289395D3C",
+				"CCB41C2B07B046A7FCED1EF0",
+				"BDA6F22D9A48F8ADBB94FCAB",
+				"9D6A7FA7287199C1BCEC74AD",
+				"BDA8F80F8797130B3E44DCBD",
+				"E62C659644C6E75254031504",
+				"6AA112531FC348A3C30EB676",
+				"723D206C2D092C123B05D816",
+				"32B372BC2C04BB09BBE85C4C",
+				"C04E8CD7499A04916A9E93E8",
+				"E06A35D9625E683662BAA4B7");
+			name = "src";
+			sourceTree = "<Group>";
+		};
+		9D6A7FA7287199C1BCEC74AD = {
+			isa = PBXGroup;
+			children = (
+				"3CA462641FE638E18DB047CB",
+				"F48EA94E1B4E456E20A8CC64");
+			name = "config";
+			sourceTree = "<Group>";
+		};
+		E62C659644C6E75254031504 = {
+			isa = PBXGroup;
+			children = (
+				"0E7A76FF0E015199E24BECEE",
+				"7721D0D149D34EDC7F673AAD",
+				"A10FF55A3B2ED6FFD7487313",
+				"DF18F5190E01FB026FAACE4E",
+				"087ABE1AF083D017D68AD700");
+			name = "core";
+			sourceTree = "<Group>";
+		};
+		0E7A76FF0E015199E24BECEE = {
+			isa = PBXGroup;
+			children = (
+				"3C23C3541C0C117124EF7382",
+				"3567072C7EC17258D3E2E144",
+				"6B123A8F450CD4C48EBC758B",
+				"98BF3F25CEA0925655B25C20");
+			name = "common";
+			sourceTree = "<Group>";
+		};
+		E06A35D9625E683662BAA4B7 = {
+			isa = PBXGroup;
+			children = (
+				"4F2B2FA9FD8B4E2C111B84D7",
+				"CA260FA3C1FEEBE321F37A92",
+				"53A64257BB4D891193E92D5A",
+				"CCA92CDD8ABE1237BAAC0E33",
+				"CBF9E43FCA067CB821D8BA44");
+			name = "db";
+			sourceTree = "<Group>";
+		};
+		2DFD4281C990593289395D3C = {
+			isa = PBXGroup;
+			children = (
+				"F3D2CAB6418453FF6780A43A",
+				"C1128CB9B863CD48C1DE63F4",
+				"853E2CA733EF8BF5496C1FAF",
+				"CFADA8DDA26E9C2202EE4885",
+				"BDABC0AA8EAC0CB43FE4B610",
+				"96CF764DFBA38744A7B04E72",
+				"1E8FB761A92E95D7279BC893",
+				"0E931D493F23A17EB0E4869D",
+				"F65DFC59DAFE9AEE8D226B4C",
+				"970CA6C9BF1DB15C95A4225B",
+				"87025C352A50DDDBB9A80FFF",
+				"596C9CB4E7EA0CDBD1C19F0C",
+				"4AC2C228BFD5E73A5ABDFA16",
+				"47E2F425F144B8214B717BB6",
+				"58E40ED616D2DDF50DABCFEE",
+				"DF6986C4A9CB95864B1BBC0D");
+			name = "engine";
+			sourceTree = "<Group>";
+		};
+		1E8FB761A92E95D7279BC893 = {
+			isa = PBXGroup;
+			children = (
+				"DABD7577055EA5BD5A4EBE74",
+				"92CF5A22E4644816CA9C32C4",
+				"46CF98FFB4C74E973DD9F71A",
+				"6523566F4BB5CE486BF490E0",
+				"E17104EC62A0ADE0E2349896",
+				"29FFB23EE36896267CCF94C6",
+				"E4D19D507E77B8D5C219ED46",
+				"B87FB77A914A60E1228A230A",
+				"DEAB25E47174D7059AF89519",
+				"A08B22BFED1E3907B36D80C2",
+				"E0BC74AF8031F324693AD7AC",
+				"9FA846C99FC72ED44EAEB5F0",
+				"4C265086A2688DB3D4D2B6F7",
+				"A325280DD8C7243943B2F5B5",
+				"DB5A5B130B86276A74F46B95",
+				"D086B3B53F41393CD179191B",
+				"539A4BC67D1E3B3175CEF093",
+				"E031D4A3F36ECA2324095F31",
+				"460025F8325DE2ED87940C7C",
+				"E4C675ED12E2347727AE9617",
+				"8D1EB2E1E0121BB4D4E3ABB2",
+				"57BAC1B0299BB7C2BD747D37",
+				"59CEF0B9D58FFC5E95DB1E59",
+				"0664A7514FE0999A610F0747",
+				"9D3D7964F80CCAEE64C0ECAC",
+				"F6C6D918956ABEAE7CE28CF6",
+				"906491DC62E96C2102C6EBB1",
+				"2BD5A1A8914A2225C5A79AA6");
+			name = "local_engine";
+			sourceTree = "<Group>";
+		};
+		F65DFC59DAFE9AEE8D226B4C = {
+			isa = PBXGroup;
+			children = (
+				"8424A04E1F0A020A700148D6",
+				"2C586B2647A73FAAAAA5BB93",
+				"8D52A81C99EA66F1C3CD473B",
+				"1FFDCF2D54CD3F42B6113571",
+				"18D345BF6EC70BCF21A5F2D2",
+				"8646FA254D6D1BF6672F6A81",
+				"AFC7D4E6EA50B941672CA021",
+				"B940340E1123D47E41501169",
+				"9A3F8996038C579095E80DF4",
+				"A3B0889036E7679FAF034216");
+			name = "network_engine";
+			sourceTree = "<Group>";
+		};
+		BDA8F80F8797130B3E44DCBD = {
+			isa = PBXGroup;
+			children = (
+				"D81500AED956A3209DDAEF6B",
+				"556775F9DEFA0DB1A16304BB",
+				"0ADA37F39A7B383EA813164A",
+				"B72B26B20C0208EF06410EBB",
+				"C84B15D1575EF472330E8FB1");
+			name = "gui";
+			sourceTree = "<Group>";
+		};
+		556775F9DEFA0DB1A16304BB = {
+			isa = PBXGroup;
+			children = (
+				"E99EA52482FF33B96FB439F9",
+				"F3042B33FB9D06F4E35D1FCD");
+			name = "generic";
+			sourceTree = "<Group>";
+		};
+		6AA112531FC348A3C30EB676 = {
+			isa = PBXGroup;
+			children = (
+				"3C4D13B02A3644A8746A28EF",
+				"3D251FB6E0A98976B54817D6",
+				"B9AD3BBE78CC885A04AF2831",
+				"B21D8465B2795F5A4DBA004B",
+				"02F3740EFD79DF93F67FFA84",
+				"2962421760A9CDA1D78D0F65",
+				"66CCB5D1732BE8608E418287",
+				"3DFF54CD592F5D44184D6F08",
+				"464988B6487BD92B076A7642",
+				"A45D2468CCCE5CF8A7CF7710",
+				"3BF086AF43DB6FDE2F10FAFD",
+				"766DB75CC2B53C74AFDF1872",
+				"7DB8872E99CB63E75EE630BA",
+				"FD48B41A9227C2EB0FC8929A",
+				"BC3E8102968D5EAD0744768F",
+				"F6D47E5EAA30E31901BEEC6A",
+				"43C0D9757F5735D309454A40",
+				"35C7F13A260008ACFF12785A",
+				"569A720E254DE64DA03EA14E",
+				"EC10222721CDA12DC86E7290",
+				"3B46DFF653D8AAD1B6C6DFCC",
+				"840BF2EB3A4C1438B880158C",
+				"CFAC2F3F9024DB6C78148EC6",
+				"4719446739595C4693DFB469",
+				"4426163A68069FBF3072BF57",
+				"703FC0BB9AF06D378FD09CE1",
+				"D1D765975BB589D56118480A",
+				"929225ED4C011876D296708C",
+				"D9D67E11A56958BC37813CA0",
+				"69A19269309B1C3A8338679E",
+				"2EA151EF678148F83D30568F",
+				"749D8C0D60B3A2CE1A01D74B",
+				"2F79A921A361FCE9EFC97BD3",
+				"6306011024A6084E4EC47A3F",
+				"DF81853766B5D23EE8529153",
+				"08B8B4D06E6062F34D1F0A3D",
+				"230A8349FFFE723DAE55F259",
+				"6B7D4295D20094B30B2711C1",
+				"A1E594AB5EC15282E1D9E9BC",
+				"2A0EC4F49B15C987E1ED2ECB",
+				"873879412816977416DFE5F7",
+				"D6C7BB0EC2ED62EDFD6CA13C",
+				"CE9B3AF8F2C42B9DE742DB2C",
+				"44A5E125B0BA556C63F08057",
+				"0EABF03D6E85CEC05E510FAD",
+				"837B3C21093ABE0C8824C86B",
+				"78EB21321119BA160FD54A6A",
+				"E74E824F019EDD27A1E6376F",
+				"2E0B0CD5DEF8D13FDF1B1533",
+				"893BB0A68DD881CA2B02710B",
+				"57F0BECC4F416DCBC963A053",
+				"268496EFAB91F8DD015625B4");
+			name = "net";
+			sourceTree = "<Group>";
+		};
+		3C4D13B02A3644A8746A28EF = {
+			isa = PBXGroup;
+			children = (
+				"77BB9A157A1C15BA631E5E34",
+				"52965740AEA3E00FDAC584DC",
+				"CB9F4C820790CF62F72A3046",
+				"8C6593432ED21663CF1CC90E",
+				"EAF21F1EDC72D1E8CEADEF8E",
+				"ED61E620FA0A3CDA0D224E6E",
+				"3C19AA2A04F442F7FFD8A687",
+				"797B0B77B4F5FDD4805E7B22",
+				"4C3287E464594FE28CF35567",
+				"E070D13B4574281BF56ABCEF",
+				"08A5414BB80C407F35AD216C",
+				"AD151791D58318439B9251A5",
+				"F0087CA13B60E42F67DA1A7A",
+				"9E8284FE04054EF15486A458",
+				"32F265B65F527CD490A7D481",
+				"33801ADCEE3A3D68D77B6AB2",
+				"B7EA51B0AC7CBB9130B10484",
+				"EF5582EDDD306D5D3C6A5793",
+				"D980989426452B877D5E3D99",
+				"1C5952F6C4E7D9FCBDFFC65B",
+				"EE56F651CB6737E133BFF1C7",
+				"154010B764698A7145BAA087",
+				"F776853CF186F0BFC52C06A1",
+				"D16D6192CC46A77EB62D2520",
+				"1800FC562450133A30F5BA7C",
+				"7B55E90D3C582CF64BE5F136",
+				"C9F2A31EE0EB6F6B64BEA9E3",
+				"522D5E2B1B5A87074C0A5885",
+				"DD626EDA978A179A6081D38F",
+				"887457EE6DA453E4923EDC63",
+				"1B7CEB9CB3F4E37F505D78DC",
+				"00D0F2FE1258BA42B429D760",
+				"1C59A16B409F8E488C934253",
+				"A56102FB3F2F9C44277B9941",
+				"1151102D90DC183032408B90",
+				"8B3C871830BE9DE275B275AC",
+				"181354DD8DF129A80C479BC8",
+				"9CD6F3B18CC37C0630848C92",
+				"CABA8A67BC5ED3E33D0C6A8F",
+				"966892A7F1012F53F2BFA359",
+				"0AB9AAB2D985B0EE05E6CE99",
+				"5897ACB9D4E55D099EF68CFB");
+			name = "common";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"921315FAA7F261D737F4F4C7");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"F0EAFDA83CBE6054DDC46787",
+				"AB745978DF0F41D1801ABDA6");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C /Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3 -f pokerth_lib.xcodeproj/qt_preprocess.mak";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"3A9476DDA4416F564F351839",
+				"F22B19FD630A61C112599A37",
+				"8EDE2E5C98C7EBF56706A408",
+				"AA174A95AFB6BC4DEDB9C7E3",
+				"4C3A39618AD27676E5ABA15B",
+				"AF883FDFC3A1788189589449",
+				"E697945A0F36F438401471C5",
+				"04E3DE4D1EBF71EA363FD59B",
+				"62F9C947E647B60828F6B18E",
+				"6974212CDB3028E0F5461E2A",
+				"98D228D84FC23272F4EB0AAA",
+				"495772B63432AF3425BC7435",
+				"2AF1DD6985217B9175462E4F",
+				"A5DF4696E9AAFB80382A8ACC",
+				"9D0BBD28575D79557B891612",
+				"B592D4E2118965175B5C2677",
+				"7BA2E872EE448A8CB21A05D5",
+				"1974A103D28B91127B9A0549",
+				"2DA819073FC32A118BDB67EA",
+				"423638207568EC78C0205DF1",
+				"359DC837CF26C27989FFE004",
+				"6A88A8D9586E15B3FA406771",
+				"01123790677FF3D5E41F7CB0",
+				"A13444BEF907786939DF65DD",
+				"CC1DA19574D9C4B9AB2C4615",
+				"CB385CA4A76438AD3956CEDA",
+				"FB800F25BA53F0A99F126D54",
+				"0F4A58F364DA2DF5FFF8217E",
+				"ED593B2027D2D8015B7930A2",
+				"CFDD6BEBE1C60FEA71189F46",
+				"60D5DCC6EFFA0584E8CDE995",
+				"AA9C8F13333C6AFE1AE99FF9",
+				"C959DB04A02F7AB5C7AB9964",
+				"5CD72B3329A00A28E54DB14C",
+				"58DDD3A7BE9FAAA0EBBF868F",
+				"588FC519CA14D01AE51BB7C6",
+				"3A894A6F6E5453C5A7E5190E",
+				"485DFE07B2B297212937A31C",
+				"493EB8FB4C5337D82DDEAFD1",
+				"66169187488439A220F3028D",
+				"5C795F22DF873B79720CD272",
+				"6A22ED868EDC0BE69AE59B5B",
+				"682A3BEFBB08EBAD16C15B70",
+				"CCEAC2A1EDE49FC6FBE4D5F9",
+				"7A9EBA66E67E94765DE2FBF9",
+				"257C9006644504BD2DC4B3D8",
+				"7522B00DB22888B7D49D6953",
+				"11A25AAF1C5442F5C4ED9655",
+				"3510EE0CA265DC392029D8E8",
+				"9C847FA4C9CE09E72145C2E2",
+				"A1C365A84C29D4B230DC33FE",
+				"4223B77A165D6AEFFC9C0A29",
+				"31BDF813CDD0D85725047055",
+				"08C94D419342C0BCD0245806",
+				"A5345D6948FB45C67A2247D0",
+				"80C56E38D949600E104B9114",
+				"8CC3EC7F35448CD7EC8CC2CD",
+				"F413F1E61BAF8BC1E6E7B129",
+				"A62354C440F5C49F1E949D4F",
+				"900D57CF769EF9EE48D5EC67",
+				"449C7183D302DD2B27347985",
+				"4010E1EBF87D4D14EE41D806",
+				"48456B58EDA93D86F0C0A4D4",
+				"FC1224360EE0C5EBC2D42F9F",
+				"C0C5560F151FD859F1D5C991",
+				"6D3CD46DCE5A3962AF399E72",
+				"7AEC5B4484D0BD3CF5087037",
+				"0E2D9D59F369FEEE18289967",
+				"36C219759F64813DFBB5E501",
+				"9123F5340D60DF17282BCC70",
+				"6B2DC3819374E68902E3A362",
+				"6A0CE41379E9ECD3629BC54B",
+				"DEEEF3FDCCE6773EA3763036",
+				"22D615FABCC19628495B45D7",
+				"0BA1BEE896BCAA893D8460F7",
+				"B6DF167583427DBC8551B6DA",
+				"F4FEC6FF9FDB54A7F771601D",
+				"4E1785B199BB780B19FF37F2");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		9C316F444A62BF296E3E1F25 = {
+			isa = PBXShellScriptBuildPhase;
+			name = "Project Copy";
+			buildActionMask = 2147483647;
+			files = (
+				);
+			inputPaths = (
+				);
+			outputPaths = (
+				);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh";
+			shellScript = "cp -r $BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME /Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/lib";
+		};
+		237B4DEC16AC0B6B803DAA5B = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/lib/pokerth_lib.xcodeproj/Default-568h@2x.png";
+			name = "Default-568h@2x.png";
+			sourceTree = "<absolute>";
+		};
+		B239B20A8250817A8EA382E1 = {
+			fileRef = "237B4DEC16AC0B6B803DAA5B";
+			isa = PBXBuildFile;
+		};
+		38D2537601EC48A3236F7C85 = {
+			name = "Copy 'launch_images' Files to Bundle";
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			isa = PBXCopyFilesBuildPhase;
+			files = (
+				"B239B20A8250817A8EA382E1");
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651635678C6F2B5A781AAD4E = {
+			isa = PBXFileReference;
+			path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/lib/pokerth_lib.xcodeproj/LaunchScreen.xib";
+			name = "LaunchScreen.xib";
+			sourceTree = "<absolute>";
+		};
+		AD5197388FABA625C363DDD5 = {
+			fileRef = "651635678C6F2B5A781AAD4E";
+			isa = PBXBuildFile;
+		};
+		99CEAAE94427E9B3C456905F = {
+			name = "Copy 'launch_screens' Files to Bundle";
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 1;
+			isa = PBXCopyFilesBuildPhase;
+			files = (
+				"AD5197388FABA625C363DDD5");
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		858FCAB0EB1F29CF8B07677C = {
+			children = (
+				"237B4DEC16AC0B6B803DAA5B",
+				"651635678C6F2B5A781AAD4E");
+			isa = PBXGroup;
+			name = "Bundle Data";
+			sourceTree = "<Group>";
+		};
+		6EDE05026350D74B6689FBC5 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "compiled.mach-o.dylib";
+			path = "libpokerth_lib.a";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"6EDE05026350D74B6689FBC5");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"74B182DB50CB5611B5C1C297",
+				"858FCAB0EB1F29CF8B07677C",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "pokerth_lib";
+			sourceTree = "<Group>";
+		};
+		89AEF07E5B6ADC4192662262 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		369AF19068E63670BE8E2626 = {
+			isa = PBXTargetDependency;
+			target = "89AEF07E5B6ADC4192662262";
+		};
+		E9281406BFCB075750F3AC39 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"9C316F444A62BF296E3E1F25",
+				"38D2537601EC48A3236F7C85",
+				"99CEAAE94427E9B3C456905F");
+			dependencies = (
+				"369AF19068E63670BE8E2626");
+			productReference = "6EDE05026350D74B6689FBC5";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			name = "pokerth_lib";
+			productName = "pokerth_lib";
+			productType = "com.apple.product-type.library.static";
+			productInstallPath = "lib/";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "pokerth_lib";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				SYMROOT = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3";
+				INSTALL_DIR = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/lib/";
+				INSTALL_PATH = "";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "9.2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"/Users/espir/Qt/5.4/ios/mkspecs/macx-ios-clang/ios",
+					".",
+					"src",
+					"src/engine",
+					"src/gui",
+					"src/gui/qt",
+					"src/gui/qt/qttools",
+					"src/net",
+					"src/engine/local_engine",
+					"src/engine/network_engine",
+					"src/config",
+					"src/core",
+					"src/third_party/websocketpp",
+					"../iOS_Libs/build-protobuf/protobuf-master/include",
+					"../iOS_Libs/tinyxml",
+					"../iOS_Libs/openssl/include",
+					"../iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/include",
+					"../iOS_Libs/curl/include-32",
+					"../iOS_Libs/boost/boost155/ios/prefix/include",
+					"../iOS_Libs/zlib/ios/prefix/iphone-build/include",
+					"../../../../Qt/5.4/ios/include",
+					"../../../../Qt/5.4/ios/include/QtCore",
+					"mocs",
+					"../../../../Qt/5.4/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					);
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-fPIC",
+					"-Wall",
+					"-W",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-fPIC",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DQT_CORE_LIB");
+				ARCHS = "armv7 arm64 i386 x86_64";
+				OBJROOT = "obj/";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "NO";
+				DEBUG_INFORMATION_FORMAT = "dwarf";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				ONLY_ACTIVE_ARCH = "YES";
+				PRODUCT_NAME = "pokerth_lib";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_STYLE = "STATIC";
+				PRODUCT_NAME = "pokerth_lib";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "pokerth_lib";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				SYMROOT = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3";
+				INSTALL_DIR = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/lib/";
+				INSTALL_PATH = "";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				IPHONEOS_DEPLOYMENT_TARGET = "9.2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"/Users/espir/Qt/5.4/ios/mkspecs/macx-ios-clang/ios",
+					".",
+					"src",
+					"src/engine",
+					"src/gui",
+					"src/gui/qt",
+					"src/gui/qt/qttools",
+					"src/net",
+					"src/engine/local_engine",
+					"src/engine/network_engine",
+					"src/config",
+					"src/core",
+					"src/third_party/websocketpp",
+					"../iOS_Libs/build-protobuf/protobuf-master/include",
+					"../iOS_Libs/tinyxml",
+					"../iOS_Libs/openssl/include",
+					"../iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/include",
+					"../iOS_Libs/curl/include-32",
+					"../iOS_Libs/boost/boost155/ios/prefix/include",
+					"../iOS_Libs/zlib/ios/prefix/iphone-build/include",
+					"../../../../Qt/5.4/ios/include",
+					"../../../../Qt/5.4/ios/include/QtCore",
+					"mocs",
+					"../../../../Qt/5.4/ios/mkspecs/macx-ios-clang");
+				LIBRARY_SEARCH_PATHS = (
+					);
+				FRAMEWORK_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-fPIC",
+					"-Wall",
+					"-W",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-fPIC",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DQT_CORE_LIB");
+				ARCHS = "armv7 arm64 i386 x86_64";
+				OBJROOT = "obj/";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = "armv7 arm64";
+				"ARCHS[sdk=iphonesimulator*]" = "i386 x86_64";
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "pokerth_lib";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				LIBRARY_STYLE = "STATIC";
+				PRODUCT_NAME = "pokerth_lib";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Debug";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"E9281406BFCB075750F3AC39",
+				"89AEF07E5B6ADC4192662262");
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

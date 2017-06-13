@@ -1,0 +1,2193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		554BFF4E445FF0DA20B60823 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "pokerth" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01678B6A584E0686FC1575B4 /* qtsingleapplication.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1D471BA2B025668392444ABA /* qtsingleapplication.cpp */; settings = {ATTRIBUTES = (); }; };
+		017317AAE2E92C237ECF369C /* libboost_system.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 635189467A994709B690B60E /* libboost_system.a */; };
+		02855A782D51BCC6055BDDBA /* createinternetgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0BD2122AEC4DB61EB5B8238E /* createinternetgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */; };
+		10101DF93A5217DDE143C85D /* moc_chattools.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5CE615073C47A1B7F67D7B78 /* moc_chattools.cpp */; settings = {ATTRIBUTES = (); }; };
+		143CB6984510B72566790C47 /* net_helper_client.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B015307F0872EF1750068E3C /* net_helper_client.cpp */; settings = {ATTRIBUTES = (); }; };
+		144861893BED727299041F41 /* timeoutmsgboximpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 87D63553DA9BC67DFE29FC9C /* timeoutmsgboximpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		15364689D2AB5A30E87A689F /* Security.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 205259EEEE2BADA5E64741E3 /* Security.framework */; };
+		163C0F92577E30E71263C08A /* moc_mystatuslabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FCD3E77BAEA08845A8FB842C /* moc_mystatuslabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		16DD85091A290DB2E46862A2 /* qtlockedfile_unix.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6C4C31E8E475057B16EB3393 /* qtlockedfile_unix.cpp */; settings = {ATTRIBUTES = (); }; };
+		17012A69C1BDFBABF2B7172A /* qdds in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 806536F51BB191595379E0B3 /* qdds */; };
+		184BEF80CAA87EE13F47921D /* moc_mynicklistsortfilterproxymodel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 735E6AFA74E337BAB8459565 /* moc_mynicklistsortfilterproxymodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		189D49C22E74CEE3BF235047 /* Qt5Gui in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 709170AD3BD93BA239AAB435 /* Qt5Gui */; };
+		1A124A79A5AF30A9D9064F56 /* pokerth_lib in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 250F736003D820AB798C2C6C /* pokerth_lib */; };
+		1A873F1B9DD6B443D253CD0F /* moc_settingsdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CDC08AE3F4E67A0A8B15EE9B /* moc_settingsdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		1B81CEDEB1B47960343844CA /* Default-568h@2x.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = C0DCB77107F1154D04A1CF9A /* Default-568h@2x.png */; };
+		1D17C0B76C72A95D70D0DE42 /* gametableimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ED94100E030872A8243257C7 /* gametableimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		1EA76DC656FEE0D7897A5C7A /* guilog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3739DCD64098E9108E53FC43 /* guilog.cpp */; settings = {ATTRIBUTES = (); }; };
+		1EC9F88BD36EBBD07818439B /* moc_timeoutmsgboximpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BA30CE07389304E5B0FA6308 /* moc_timeoutmsgboximpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		20A0A65BCAA7800DCB96D520 /* connecttoserverdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B93132D7C67CE57BAF8605E1 /* connecttoserverdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		257F159E87711B408328E199 /* myactionbutton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EF1AF4EDDE824A5546EBBC8D /* myactionbutton.cpp */; settings = {ATTRIBUTES = (); }; };
+		2694CA0CA98F156EF3EA67EB /* moc_mynamelabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4BB51BDEFD3C62F25EDF9C70 /* moc_mynamelabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		27207932E3282BF2C912FDB4 /* qwbmp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 050CC7857DA206655AF7D6A7 /* qwbmp */; };
+		2731EB9492E5ED84AEAD20FF /* moc_gametableimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F35C0908012B7D6A69FE7FEC /* moc_gametableimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		27D7EAF1F78DB0975E03A468 /* curl in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F18BDD262E5B48CC16527EAE /* curl */; };
+		2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7D7B02101166B76FD2D4F8B4 /* CoreText.framework */; };
+		2B12B378C980A22F1963A1AF /* chattools.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 337DA568B3DB4C337E450B69 /* chattools.cpp */; settings = {ATTRIBUTES = (); }; };
+		2C32368E451A0184DE7BED44 /* myrighttabwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1FD3948BD88844DC301689B5 /* myrighttabwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		2D726FD9FF64EA41BAA6C102 /* mynamelabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 06AE2965FFAB89CAEAE49E72 /* mynamelabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		2E59CA632D9094D1E7732277 /* tinyxmlparser.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 02D8EA96675136670114C55F /* tinyxmlparser.cpp */; settings = {ATTRIBUTES = (); }; };
+		2EACE37CC364104F6FCDE97B /* pokerth.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9C826C816170339977428984 /* pokerth.cpp */; settings = {ATTRIBUTES = (); }; };
+		2FAFCC4A16539AB9A9EA67A9 /* moc_changecontentdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3DB59451B3C83352A3B5BDAF /* moc_changecontentdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		304DE53A94CAB7130476C54D /* libboost_iostreams.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1E3E9495A9A03E6D9B324B65 /* libboost_iostreams.a */; };
+		31E5754E455912822C2F68E7 /* myhpavatarbutton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3615BA154BCB334CD173D314 /* myhpavatarbutton.cpp */; settings = {ATTRIBUTES = (); }; };
+		35D357C51331554D8859BB13 /* moc_myavatarlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2C7981D3D4F02965E149262E /* moc_myavatarlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		3631B7CDD544AEF043C08A08 /* tinystr.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F2E97B3629580345840361D1 /* tinystr.cpp */; settings = {ATTRIBUTES = (); }; };
+		37BD610E2956D3F62F947189 /* gametablestylereader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EF1887446B68296B190A7098 /* gametablestylereader.cpp */; settings = {ATTRIBUTES = (); }; };
+		37D8D8824C3EE3FD44B49F96 /* CoreMotion.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B9834DF838BD025715A2D06B /* CoreMotion.framework */; };
+		3AC4EA65799CE486E944E9A1 /* myavatarbutton.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F2F1DF1552EC4A0D0EC14A0D /* myavatarbutton.cpp */; settings = {ATTRIBUTES = (); }; };
+		3BF15E5BA717261414776ACD /* moc_mygamelisttreewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B5912860F44CA32950391AC6 /* moc_mygamelisttreewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		3C2DB55A815E37F6FF84B489 /* moc_manualblindsorderdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ABDB107E56898796950F16D2 /* moc_manualblindsorderdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		419BF44599D06773DCBD9C43 /* libSDL2.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E21BBC82FC09996C94B9FBCA /* libSDL2.a */; };
+		4450ADE362BE9C29E1E2F7EE /* Qt5Sql in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 888B170C0CD3663040F0E553 /* Qt5Sql */; };
+		45CF0F656E1A025D58A2B51F /* moc_joinnetworkgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 74F0D821332A8DB351A32380 /* moc_joinnetworkgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		48A0552357D64902706687C2 /* pokerth_plugin_import.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5B16A00665FF6659E16D849A /* pokerth_plugin_import.cpp */; settings = {ATTRIBUTES = (); }; };
+		49A5011CEA096D302C79197A /* protobuf in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4A52BB770DE33E2DE5609EC2 /* protobuf */; };
+		4AF0D1737211C736E2C353B6 /* soundevents.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 73272A9B842697AA6B5542D9 /* soundevents.cpp */; settings = {ATTRIBUTES = (); }; };
+		4BCEC5E1300BBF6FD7901057 /* startsplash.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 377E15B955341A90B1D44990 /* startsplash.cpp */; settings = {ATTRIBUTES = (); }; };
+		4D513983AF4BCDDCED887E68 /* moc_aboutpokerthimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FE013C39A88F78F63C714E66 /* moc_aboutpokerthimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		4E72DDB5CA11479883805ADA /* qthelper.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1D0963A0BC7DD934C6612F95 /* qthelper.cpp */; settings = {ATTRIBUTES = (); }; };
+		50D853ECAC85FA15AD6A73B9 /* internetgamelogindialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BA538AB90B915A76158CCC39 /* internetgamelogindialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		513538FE22FA9288DAFFCBAC /* qtiff in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7B3CA7B01535405D32282A9D /* qtiff */; };
+		5274E9F4DCD11DC059263342 /* newgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F8257B6879785544498A98D3 /* newgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		573E5BF81AB788CF517C0D9B /* moc_gamelobbydialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F69BB8CC7FA979E288F82366 /* moc_gamelobbydialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		57E0D99E67F8C7C90CD31B6C /* moc_mychancelabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6A1CFA98B9E223337B2718AE /* moc_mychancelabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		59B197190FDA8FA31CC07E29 /* gamelobbydialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 23838138258771EE553EEB97 /* gamelobbydialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		59E68554C07AC6F48C6D2DAB /* moc_mygamelistsortfilterproxymodel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 23164E82665B64EE859E5FB1 /* moc_mygamelistsortfilterproxymodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		5C2E69F5260429D31645EB2E /* qgenericbearer in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3C63E65142E4019B966E05B6 /* qgenericbearer */; };
+		5D9BBB46318E6BA3DE0E21C5 /* mychancelabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6F41F5D3827DD8EC9003C0FA /* mychancelabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		5E652B7268B65153AF5F2BD6 /* moc_selectavatardialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 986117567CE978CE45061FE5 /* moc_selectavatardialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		5E95B3A9F57D180067069114 /* qrc_pokerth.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 40677A0DE1A1CE6138E04D13 /* qrc_pokerth.cpp */; settings = {ATTRIBUTES = (); }; };
+		5FA6D2BD7297D5E25DDBF46B /* mystatuslabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4A20842262CCB685CBC3CAD6 /* mystatuslabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		611EB18B348A2C28E23743C6 /* libboost_filesystem.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A9714EE2A1ACFBFF6E09826E /* libboost_filesystem.a */; };
+		649015599A9E603A4B4A4D62 /* ssl in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 77C14E44BA1CA66A0C4F3A16 /* ssl */; };
+		654A138B3F8088BE161A6CC5 /* tinyxmlerror.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7B94EBB113CD492F55743D7F /* tinyxmlerror.cpp */; settings = {ATTRIBUTES = (); }; };
+		65FE531532502E2132385910 /* servermanagerfactoryclient.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = EDB39EA1D5F8A84F11A318B9 /* servermanagerfactoryclient.cpp */; settings = {ATTRIBUTES = (); }; };
+		672A120F84F4FB46F6C697D3 /* settingsdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E6F75F7D66F4B04286FD89A9 /* settingsdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		68D2BCA7400260914E0256BE /* qttoolswrapper.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F8848622783E7A262383C838 /* qttoolswrapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		6A7DFA4C6238399CBFF8AC97 /* moc_mylefttabwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 30EA86D7B2CCAEF6DD409A3C /* moc_mylefttabwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		6AC243A11BFDBFC20FCA311D /* libSDL2_mixer.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1BF3242F454F48E3ABB78B95 /* libSDL2_mixer.a */; };
+		6B3B7AF3E3AEBA54B5687D26 /* Qt5PlatformSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 773526C7141343CA6BE6C425 /* Qt5PlatformSupport */; };
+		6C1A8379A9AB6E2FA4405C06 /* moc_gametablestylereader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8E4CC38A07A74DCCBA91C5D2 /* moc_gametablestylereader.cpp */; settings = {ATTRIBUTES = (); }; };
+		6D081AEB4C3C9687E62141AF /* replay.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8DD04B3F39F6767BB7593B1C /* replay.cpp */; settings = {ATTRIBUTES = (); }; };
+		7304CCDBDFE00322D3D8520B /* qtga in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DD09DA9BD5985F8ED60CAF07 /* qtga */; };
+		74B946A9DE34E968CBC52210 /* libboost_regex.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3ED57E7A95C9DB5A2EFE53B7 /* libboost_regex.a */; };
+		74FF291332A517CBD2A6116B /* mygamelistsortfilterproxymodel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 042615887960E5CDF971EFC4 /* mygamelistsortfilterproxymodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		77CC8822B138CEC79F49C9C6 /* moc_mymessagedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2912572DF5A6B3C3DEF91EE1 /* moc_mymessagedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		7A0AD830C13786D187F3A9FA /* moc_guilog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5A322F1E89C36415EA583CD2 /* moc_guilog.cpp */; settings = {ATTRIBUTES = (); }; };
+		7A492BA3E98B6144A4855A06 /* qios in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 021BBDD573CC2FB716B07B67 /* qios */; };
+		7EAD40B537E67C4E836A9744 /* mymessagedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 01538460219D2EBE6E0F9A2E /* mymessagedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		820731931E3D67F1A886E0B5 /* guiwrapper.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CADDECEAD018898C9F9D80F1 /* guiwrapper.cpp */; settings = {ATTRIBUTES = (); }; };
+		823D4AD02A64A3EF2442FCCA /* mycashlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BF7D05E47529EAAA51256C24 /* mycashlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		82E46936979DAC9BF4958EF1 /* qjp2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E37567DFF7FF9B0F4D625EBD /* qjp2 */; };
+		83E65239190AB259EF899736 /* moc_startwindowimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B075EFD098558D18458EC2C2 /* moc_startwindowimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		84A8B9C2862972A415E3E258 /* qtlocalpeer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 63394DD9C224C7F71E1E97F7 /* qtlocalpeer.cpp */; settings = {ATTRIBUTES = (); }; };
+		861EBFBC8C4452CA9C5E818F /* qtharfbuzzng in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B5924CD70A27870631808973 /* qtharfbuzzng */; };
+		880E9B782D530C015E5EA297 /* myavatarlistitem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8E4F03905E4DF7940861D0DC /* myavatarlistitem.cpp */; settings = {ATTRIBUTES = (); }; };
+		889A236A88103746B35C6E92 /* qtlockedfile.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F8317754C744452E81B38A7A /* qtlockedfile.cpp */; settings = {ATTRIBUTES = (); }; };
+		89A2F5143D59CE9C1253A7AA /* carddeckstylereader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 21A02FC5F3F2E5625E92AA2C /* carddeckstylereader.cpp */; settings = {ATTRIBUTES = (); }; };
+		8F4917F9166757BC2E9878A7 /* moc_myrighttabwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E7BB333645DD0BBEAE63FF86 /* moc_myrighttabwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		94EEB06B631189D83F9F0DE0 /* moc_createnetworkgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F654A8D9112A37B028CA7EED /* moc_createnetworkgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		9539152D93C21832238B8627 /* qsqlite in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 65BCBB8C0CFDE3EF3DF743A6 /* qsqlite */; };
+		9704C88DC927BAE5D340011E /* LaunchScreen.xib in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = C60A1580C791858FC924F836 /* LaunchScreen.xib */; };
+		98D0E491CBD15FD7EC54DB9C /* qicns in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5267FD0AEA6DE3B1047BCDEB /* qicns */; };
+		9C9B09BB0CC6D09CE97BE92E /* libboost.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 967F340E194A32B5284FB41C /* libboost.a */; };
+		9F40690EC3D55D62BC8D3A23 /* mysetlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0208B6DB77C7EF47D701B649 /* mysetlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		A0BBECF4EC99A738F6C512B9 /* Qt5Network in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3999C65495DE899FBBB7D296 /* Qt5Network */; };
+		A3B2BB111A42EEBEB109A2B8 /* mylefttabwidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 322C2EE197060DC8532058CC /* mylefttabwidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		A47390E66451FD86D1166EDB /* manualblindsorderdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7A5AF502E8006E6A9AB0AD41 /* manualblindsorderdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		A484749CFA4BB3C9AC861FF0 /* crypto in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 0BC31CD8EF1C8253DDCADADD /* crypto */; };
+		A4ABED81557B9448B603921B /* moc_qtsingleapplication.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3AC2B0752732B4C063537CAC /* moc_qtsingleapplication.cpp */; settings = {ATTRIBUTES = (); }; };
+		A9DA845DAD08BF190280FF63 /* moc_mycardspixmaplabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 55779A027DACB62584B8D084 /* moc_mycardspixmaplabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		AB8F5D9AB48AC27813545E93 /* moc_mycashlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3266CEEF4699B484D0858DF1 /* moc_mycashlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		B315A7F2F38DEB13C636C583 /* moc_mytimeoutlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A2E3ED9D4C04AAE29B51A7D6 /* moc_mytimeoutlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		B3D807762B25D0F12E0AB8B1 /* mygamelisttreewidget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C8634330A6EE5C92D2530ECF /* mygamelisttreewidget.cpp */; settings = {ATTRIBUTES = (); }; };
+		B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */; };
+		B491C855E5D9614B3032003A /* mymessagebox.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 70E4FBE1A8B0DEC700631D2A /* mymessagebox.cpp */; settings = {ATTRIBUTES = (); }; };
+		B5C21A21ED4354D488A19139 /* moc_serverlistdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D44C20BB7F952199D892D972 /* moc_serverlistdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		BCA1166EF4641D0D1239E049 /* selectavatardialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 16097AECA972E0404DBCD36D /* selectavatardialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		BD0AC1CE4AF791191D72652C /* moc_internetgamelogindialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 58B5A50EBDA3F804ACBDEF92 /* moc_internetgamelogindialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		BE8959589CE2E3BB0DAA6BDF /* qmng in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 44FFD4F2E11ADB7426BC0623 /* qmng */; };
+		C00DECF66664CA22713FC48C /* startwindowimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B466920FFD09847BC3DEE0A1 /* startwindowimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		C07D47FD71E10992208A5E7E /* tinyxml.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B67A79CE0B019B82E8AF5F08 /* tinyxml.cpp */; settings = {ATTRIBUTES = (); }; };
+		C18F5D6429C11D9C0AD2C4B1 /* moc_mymessagebox.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 77C05D2835BC7C71BDD76E53 /* moc_mymessagebox.cpp */; settings = {ATTRIBUTES = (); }; };
+		C38151912BE93754024FFB03 /* logfiledialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 27734A9D569C2BC7F7B98031 /* logfiledialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		C51FAA77CC3ABA2C1A22B8CD /* pokerth_protocol in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 27788A69B7A99AD5AD2ECDE1 /* pokerth_protocol */; };
+		C5D2A7AA6BF7F9C4A5E78DDD /* mytimeoutlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2A5E751C59E97D88A9D84CFE /* mytimeoutlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		C5F8D40896676D0DDCCB8B9A /* gsasl in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5A3DFCA8DDF23D77CA7EC712 /* gsasl */; };
+		C65081AF89E31F5648E3D26D /* serverlistdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9A3C9B6D2EF1F6859B741327 /* serverlistdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		CCFB564EA0A4294E7693A8E4 /* moc_changecompleteblindsdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6961280210A84250127289B2 /* moc_changecompleteblindsdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		CEF213B784C58E4D6EC51BDB /* libboost_thread.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5C9CF3AE05696E018B4FEB80 /* libboost_thread.a */; };
+		D067CB55DE728EF01E648EBE /* changecontentdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3B79B0CE56A3EFD913DE7142 /* changecontentdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		D4639595C3BCF2A39D88DF6E /* SystemConfiguration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FF5BDAB0076F3391B219EA52 /* SystemConfiguration.framework */; };
+		D6734FEFDA23043F41651050 /* moc_myslider.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F19671EDEC997EF6C86247A2 /* moc_myslider.cpp */; settings = {ATTRIBUTES = (); }; };
+		D691C663217CB2AE958C6E15 /* myavatarlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F60F3B2DD5BE158F6CB21921 /* myavatarlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		DA9470C25C57D203C4331D37 /* changecompleteblindsdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B0696C884EFBC924DAF7D244 /* changecompleteblindsdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		DB1F27B13E0CDAD37808C9B3 /* aboutpokerthimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 6E4600971BE09CB6219B2591 /* aboutpokerthimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		DC809000F3FBFADFC862C6F3 /* qico in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 13BD8ADCE887E34EF7987033 /* qico */; };
+		DCB7FA0D8BDB1FABAEB76DAC /* moc_createinternetgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A005E7FA69D44150FA7EBE3B /* moc_createinternetgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		DF10FC6429362279632B57AE /* mystylelistitem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9545E8951C18690F0E19C416 /* mystylelistitem.cpp */; settings = {ATTRIBUTES = (); }; };
+		DFD14C81505580C1AEAC98F6 /* moc_logfiledialog.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 08377F46AC7B055DEF68E3D9 /* moc_logfiledialog.cpp */; settings = {ATTRIBUTES = (); }; };
+		E053416AA33D2D4D2A4B2176 /* moc_newgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4853B45BA72283522C59F1B6 /* moc_newgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		E2C888E88A160B379741C989 /* z in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 089CC68F00A27ABBE8BB8212 /* z */; };
+		E5942691E1AC655A68FB49A4 /* startnetworkgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4065E3E47BB52779C401BAF6 /* startnetworkgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		E597FAEAE7C3EBBEC6A00E01 /* joinnetworkgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5914E4C564920BDBBE269E16 /* joinnetworkgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		E5BBABE6E3DEF0B40B65DD71 /* GameController.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 985FFAD45C383019C1B2AFE7 /* GameController.framework */; };
+		E6532CB1436F9F24C974AC61 /* loghelper_client.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 54A5B022CC9864DA6B68BDFC /* loghelper_client.cpp */; settings = {ATTRIBUTES = (); }; };
+		E985528562445CF0677E9AF9 /* libboost_random.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DDC61F8854F3EEDD11CC7900 /* libboost_random.a */; };
+		EC0475B810700927E4AC064E /* moc_carddeckstylereader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2F806F31A61BEFD43F7D44A7 /* moc_carddeckstylereader.cpp */; settings = {ATTRIBUTES = (); }; };
+		F12020F2A1782AF3DE4B7036 /* moc_qtlocalpeer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7A2FEB5CE7EFFE381074BBED /* moc_qtlocalpeer.cpp */; settings = {ATTRIBUTES = (); }; };
+		F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FCC237CA5AD60B9BA4447615 /* Foundation.framework */; };
+		F5B0CF6852C121A6B665C902 /* pokerth_db in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 917DD6E5BC318D4080394F1E /* pokerth_db */; };
+		F5C8614D7899E44D4784CE54 /* moc_connecttoserverdialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1F7375152C66D0E012DD2424 /* moc_connecttoserverdialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		F5F34D5A366A36DB24DC2249 /* Qt5Core in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 40CBF7847B5A4D6B506D6970 /* Qt5Core */; };
+		F775ADB9CA27CBAC593A4DC1 /* mycardspixmaplabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2F7535265FC44513228E24AB /* mycardspixmaplabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		F77FE115DC43C0FB6740E53A /* createnetworkgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3EA7600170C5623E8FBD94CF /* createnetworkgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		F832D6ECB2FC2B440D8AB51C /* moc_startsplash.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B729D348F8EE05F4039C747F /* moc_startsplash.cpp */; settings = {ATTRIBUTES = (); }; };
+		F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */; };
+		F9C8442123BD3715355E1DE5 /* mynicklistsortfilterproxymodel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1213BCEFE986A5680B668C32 /* mynicklistsortfilterproxymodel.cpp */; settings = {ATTRIBUTES = (); }; };
+		FAAB9D37044424F3E9DFFA53 /* moc_mysetlabel.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B2AA5394D662B0A1C2EEC669 /* moc_mysetlabel.cpp */; settings = {ATTRIBUTES = (); }; };
+		FAF4BF28C89D92B5743EA269 /* moc_startnetworkgamedialogimpl.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 93CADBFFC1DA2746CB1A9BFE /* moc_startnetworkgamedialogimpl.cpp */; settings = {ATTRIBUTES = (); }; };
+		FEE45E63051DEC5545A91C10 /* Qt5Widgets in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D3157A15F344263B9E64E85B /* Qt5Widgets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F87045A1DA2F686001F7C35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 554BFF4E445FF0DA20B60823;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01538460219D2EBE6E0F9A2E /* mymessagedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mymessagedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/mymessagedialog/mymessagedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		0208B6DB77C7EF47D701B649 /* mysetlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mysetlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mysetlabel.cpp"; sourceTree = "<absolute>"; };
+		021BBDD573CC2FB716B07B67 /* qios */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qios; path = "../../../../Qt/5.4/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		02D8EA96675136670114C55F /* tinyxmlparser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/tinyxml/tinyxmlparser.cpp"; sourceTree = "<absolute>"; };
+		02F3740EFD79DF93F67FFA84 /* clientcontext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientcontext.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/clientcontext.h"; sourceTree = "<absolute>"; };
+		040016AA51D39A58492D1B81 /* mygamelistsortfilterproxymodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mygamelistsortfilterproxymodel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/mygamelistsortfilterproxymodel.h"; sourceTree = "<absolute>"; };
+		042615887960E5CDF971EFC4 /* mygamelistsortfilterproxymodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mygamelistsortfilterproxymodel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/mygamelistsortfilterproxymodel.cpp"; sourceTree = "<absolute>"; };
+		050CC7857DA206655AF7D6A7 /* qwbmp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qwbmp; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		051752267C2192FF8579D14D /* ui_newgamedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_newgamedialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_newgamedialog.h"; sourceTree = "<absolute>"; };
+		0664A7514FE0999A610F0747 /* localberopostriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localberopostriver.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localberopostriver.h"; sourceTree = "<absolute>"; };
+		069D9B6E2D5B8F7ADA186847 /* ui_gamelobbydialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_gamelobbydialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_gamelobbydialog.h"; sourceTree = "<absolute>"; };
+		06AE2965FFAB89CAEAE49E72 /* mynamelabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mynamelabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mynamelabel.cpp"; sourceTree = "<absolute>"; };
+		077A51BD75DC558FD0BB9DB5 /* aboutpokerth.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = aboutpokerth.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/aboutpokerth.ui"; sourceTree = "<absolute>"; };
+		08377F46AC7B055DEF68E3D9 /* moc_logfiledialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_logfiledialog.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_logfiledialog.cpp"; sourceTree = "<absolute>"; };
+		085D92618A68052331D9033E /* startnetworkgamedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text; name = startnetworkgamedialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/startnetworkgamedialog.ui"; sourceTree = "<absolute>"; };
+		089CC68F00A27ABBE8BB8212 /* z */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = z; path = "../iOS_Libs/zlib/ios/prefix/iphone-build/lib/libz.dylib"; sourceTree = "<absolute>"; };
+		0AF77BE0F1B04C29BEF2D0A9 /* settingsdialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = settingsdialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/settingsdialogimpl.h"; sourceTree = "<absolute>"; };
+		0B50949E1168115FD7B800DA /* ui_joinnetworkgamedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_joinnetworkgamedialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_joinnetworkgamedialog.h"; sourceTree = "<absolute>"; };
+		0BC31CD8EF1C8253DDCADADD /* crypto */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = crypto; path = ../iOS_Libs/openssl/lib/iOS/libcrypto.a; sourceTree = "<absolute>"; };
+		0BD2122AEC4DB61EB5B8238E /* createinternetgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = createinternetgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/createinternetgamedialog/createinternetgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		0FCE44C4F23BBBC744C76F39 /* mynamelabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mynamelabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mynamelabel.h"; sourceTree = "<absolute>"; };
+		1213BCEFE986A5680B668C32 /* mynicklistsortfilterproxymodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mynicklistsortfilterproxymodel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/mynicklistsortfilterproxymodel.cpp"; sourceTree = "<absolute>"; };
+		134FBA0ACD1BCB444FA85F51 /* qthelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qthelper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/qttools/qthelper/qthelper.h"; sourceTree = "<absolute>"; };
+		13BD8ADCE887E34EF7987033 /* qico */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qico; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		16097AECA972E0404DBCD36D /* selectavatardialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = selectavatardialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/selectavatardialog/selectavatardialogimpl.cpp"; sourceTree = "<absolute>"; };
+		17A42CE9D5907FD7F852DA0F /* mysetlabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mysetlabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mysetlabel.h"; sourceTree = "<absolute>"; };
+		1B31E0CB9AA362E2B66538CA /* newgamedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = newgamedialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/newgamedialog.ui"; sourceTree = "<absolute>"; };
+		1BF3242F454F48E3ABB78B95 /* libSDL2_mixer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2_mixer.a; path = ../iOS_Libs/SDL/SDL_mixer/lib/libSDL2_mixer.a; sourceTree = "<absolute>"; };
+		1C0DB79FA0FC2C21F1625F6C /* gametableimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gametableimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/gametableimpl.h"; sourceTree = "<absolute>"; };
+		1D0963A0BC7DD934C6612F95 /* qthelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qthelper.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/qttools/qthelper/qthelper.cpp"; sourceTree = "<absolute>"; };
+		1D471BA2B025668392444ABA /* qtsingleapplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qtsingleapplication.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtsingleapplication/qtsingleapplication.cpp"; sourceTree = "<absolute>"; };
+		1D53C30B7949C6312557277B /* mycardspixmaplabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mycardspixmaplabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mycardspixmaplabel.h"; sourceTree = "<absolute>"; };
+		1E3E9495A9A03E6D9B324B65 /* libboost_iostreams.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_iostreams.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost_iostreams.a; sourceTree = "<absolute>"; };
+		1E936170F5FC996E197D840D /* ui_createinternetgamedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_createinternetgamedialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_createinternetgamedialog.h"; sourceTree = "<absolute>"; };
+		1EC70685AE428EA119F62738 /* myavatarbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myavatarbutton.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/myavatarbutton.h"; sourceTree = "<absolute>"; };
+		1F6029C9808CE715968AE5D1 /* myhpavatarbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myhpavatarbutton.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/myhpavatarbutton.h"; sourceTree = "<absolute>"; };
+		1F7375152C66D0E012DD2424 /* moc_connecttoserverdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_connecttoserverdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_connecttoserverdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		1FD3948BD88844DC301689B5 /* myrighttabwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = myrighttabwidget.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myrighttabwidget.cpp"; sourceTree = "<absolute>"; };
+		205259EEEE2BADA5E64741E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		21A02FC5F3F2E5625E92AA2C /* carddeckstylereader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = carddeckstylereader.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/styles/carddeckstylereader.cpp"; sourceTree = "<absolute>"; };
+		2210DFEA62F43456C9EFAA87 /* mychancelabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mychancelabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mychancelabel.h"; sourceTree = "<absolute>"; };
+		22AF754C22139A5773C8DF20 /* myrighttabwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myrighttabwidget.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myrighttabwidget.h"; sourceTree = "<absolute>"; };
+		22E27748F987F21398D794B9 /* soundevents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = soundevents.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/sound/soundevents.h"; sourceTree = "<absolute>"; };
+		23164E82665B64EE859E5FB1 /* moc_mygamelistsortfilterproxymodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mygamelistsortfilterproxymodel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mygamelistsortfilterproxymodel.cpp"; sourceTree = "<absolute>"; };
+		23838138258771EE553EEB97 /* gamelobbydialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gamelobbydialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/gamelobbydialogimpl.cpp"; sourceTree = "<absolute>"; };
+		250F736003D820AB798C2C6C /* pokerth_lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = pokerth_lib; path = lib/libpokerth_lib.a; sourceTree = "<absolute>"; };
+		26F8FF306BEB4AF732886465 /* createinternetgamedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = createinternetgamedialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/createinternetgamedialog.ui"; sourceTree = "<absolute>"; };
+		27734A9D569C2BC7F7B98031 /* logfiledialog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = logfiledialog.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/logfiledialog/logfiledialog.cpp"; sourceTree = "<absolute>"; };
+		27788A69B7A99AD5AD2ECDE1 /* pokerth_protocol */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = pokerth_protocol; path = lib/libpokerth_protocol.a; sourceTree = "<absolute>"; };
+		28EA9E089440CA10B3950F07 /* tinystr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/tinyxml/tinystr.h"; sourceTree = "<absolute>"; };
+		2912572DF5A6B3C3DEF91EE1 /* moc_mymessagedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mymessagedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mymessagedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		2962421760A9CDA1D78D0F65 /* clientexception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientexception.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/clientexception.h"; sourceTree = "<absolute>"; };
+		2A5E751C59E97D88A9D84CFE /* mytimeoutlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mytimeoutlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mytimeoutlabel.cpp"; sourceTree = "<absolute>"; };
+		2BF669286B3D35515D0065C9 /* createnetworkgamedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = createnetworkgamedialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/createnetworkgamedialog.ui"; sourceTree = "<absolute>"; };
+		2C4E07A9C68C38A9759AA82C /* changecontentdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = changecontentdialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/changecontentdialog.ui"; sourceTree = "<absolute>"; };
+		2C7981D3D4F02965E149262E /* moc_myavatarlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_myavatarlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_myavatarlabel.cpp"; sourceTree = "<absolute>"; };
+		2CC9C794B5D07BDF0FF3EE76 /* tinyxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/tinyxml/tinyxml.h"; sourceTree = "<absolute>"; };
+		2EA151EF678148F83D30568F /* socket_msg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = socket_msg.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/socket_msg.h"; sourceTree = "<absolute>"; };
+		2F7535265FC44513228E24AB /* mycardspixmaplabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mycardspixmaplabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mycardspixmaplabel.cpp"; sourceTree = "<absolute>"; };
+		2F806F31A61BEFD43F7D44A7 /* moc_carddeckstylereader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_carddeckstylereader.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_carddeckstylereader.cpp"; sourceTree = "<absolute>"; };
+		30EA86D7B2CCAEF6DD409A3C /* moc_mylefttabwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mylefttabwidget.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mylefttabwidget.cpp"; sourceTree = "<absolute>"; };
+		322C2EE197060DC8532058CC /* mylefttabwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mylefttabwidget.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mylefttabwidget.cpp"; sourceTree = "<absolute>"; };
+		3266CEEF4699B484D0858DF1 /* moc_mycashlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mycashlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mycashlabel.cpp"; sourceTree = "<absolute>"; };
+		32B372BC2C04BB09BBE85C4C /* playerdata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = playerdata.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/playerdata.h"; sourceTree = "<absolute>"; };
+		337DA568B3DB4C337E450B69 /* chattools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = chattools.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/chattools/chattools.cpp"; sourceTree = "<absolute>"; };
+		352334810C8D040E8FCBA789 /* mycashlabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mycashlabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mycashlabel.h"; sourceTree = "<absolute>"; };
+		35D90BA029CCB78152BA4D6A /* mygamelisttreewidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mygamelisttreewidget.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/mygamelisttreewidget.h"; sourceTree = "<absolute>"; };
+		3615BA154BCB334CD173D314 /* myhpavatarbutton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = myhpavatarbutton.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/myhpavatarbutton.cpp"; sourceTree = "<absolute>"; };
+		3739DCD64098E9108E53FC43 /* guilog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = guilog.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/log/guilog.cpp"; sourceTree = "<absolute>"; };
+		377E15B955341A90B1D44990 /* startsplash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = startsplash.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/startsplash/startsplash.cpp"; sourceTree = "<absolute>"; };
+		3999C65495DE899FBBB7D296 /* Qt5Network */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Network; path = "../../../../Qt/5.4/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3AC2B0752732B4C063537CAC /* moc_qtsingleapplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_qtsingleapplication.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_qtsingleapplication.cpp"; sourceTree = "<absolute>"; };
+		3B46DFF653D8AAD1B6C6DFCC /* serverlobbythread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = serverlobbythread.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/serverlobbythread.h"; sourceTree = "<absolute>"; };
+		3B79B0CE56A3EFD913DE7142 /* changecontentdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = changecontentdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/changecontentdialog/changecontentdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		3BF086AF43DB6FDE2F10FAFD /* netpacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = netpacket.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/netpacket.h"; sourceTree = "<absolute>"; };
+		3C63E65142E4019B966E05B6 /* qgenericbearer */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qgenericbearer; path = "../../../../Qt/5.4/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3DB59451B3C83352A3B5BDAF /* moc_changecontentdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_changecontentdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_changecontentdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		3DFF54CD592F5D44184D6F08 /* clientstate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientstate.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/clientstate.h"; sourceTree = "<absolute>"; };
+		3EA7600170C5623E8FBD94CF /* createnetworkgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = createnetworkgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/createnetworkgamedialog/createnetworkgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		3EBAEB5C84120BC19EEBC806 /* changecompleteblindsdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = changecompleteblindsdialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/changecompleteblindsdialog.ui"; sourceTree = "<absolute>"; };
+		3ED57E7A95C9DB5A2EFE53B7 /* libboost_regex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_regex.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost_regex.a; sourceTree = "<absolute>"; };
+		3F8868FA1ADA2EE9DF3948D4 /* connecttoserverdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text; name = connecttoserverdialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/connecttoserverdialog.ui"; sourceTree = "<absolute>"; };
+		4065E3E47BB52779C401BAF6 /* startnetworkgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = startnetworkgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/startnetworkgamedialog/startnetworkgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		40677A0DE1A1CE6138E04D13 /* qrc_pokerth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_pokerth.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/qrc_pokerth.cpp"; sourceTree = "<absolute>"; };
+		40CBF7847B5A4D6B506D6970 /* Qt5Core */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Core; path = "../../../../Qt/5.4/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		412E57DAB9C5FA5CA3D64C96 /* startsplash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = startsplash.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/startsplash/startsplash.h"; sourceTree = "<absolute>"; };
+		417DA2622E356C183B2C47F6 /* ui_settingsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_settingsdialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_settingsdialog.h"; sourceTree = "<absolute>"; };
+		43C0D9757F5735D309454A40 /* serveraccepthelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = serveraccepthelper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/serveraccepthelper.h"; sourceTree = "<absolute>"; };
+		44A9008E7D20BEEEC44BD4C5 /* loghelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = loghelper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/core/loghelper.h"; sourceTree = "<absolute>"; };
+		44FFD4F2E11ADB7426BC0623 /* qmng */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmng; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqmng$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		460025F8325DE2ED87940C7C /* localplayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localplayer.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localplayer.h"; sourceTree = "<absolute>"; };
+		464988B6487BD92B076A7642 /* clientthread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientthread.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/clientthread.h"; sourceTree = "<absolute>"; };
+		476328D98F33E551D83155E7 /* createnetworkgamedialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = createnetworkgamedialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/createnetworkgamedialog/createnetworkgamedialogimpl.h"; sourceTree = "<absolute>"; };
+		47897132901A74FBA4A79F93 /* mymessagebox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mymessagebox.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/mymessagebox/mymessagebox.h"; sourceTree = "<absolute>"; };
+		47E2F425F144B8214B717BB6 /* playerinterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = playerinterface.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/playerinterface.h"; sourceTree = "<absolute>"; };
+		4853B45BA72283522C59F1B6 /* moc_newgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_newgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_newgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		4A20842262CCB685CBC3CAD6 /* mystatuslabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mystatuslabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mystatuslabel.cpp"; sourceTree = "<absolute>"; };
+		4A52BB770DE33E2DE5609EC2 /* protobuf */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = protobuf; path = "../iOS_Libs/build-protobuf/protobuf-master/lib/libprotobuf.a"; sourceTree = "<absolute>"; };
+		4AC2C228BFD5E73A5ABDFA16 /* handinterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = handinterface.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/handinterface.h"; sourceTree = "<absolute>"; };
+		4BB328B52D00F1ADFAB8AFE2 /* mymessagedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = mymessagedialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/mymessagedialog.ui"; sourceTree = "<absolute>"; };
+		4BB51BDEFD3C62F25EDF9C70 /* moc_mynamelabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mynamelabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mynamelabel.cpp"; sourceTree = "<absolute>"; };
+		4D6D1D713F9E0E31FDC7D79D /* selectavatardialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = selectavatardialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/selectavatardialog/selectavatardialogimpl.h"; sourceTree = "<absolute>"; };
+		4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		4E01042E921D947D29C7AF90 /* changecompleteblindsdialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = changecompleteblindsdialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/changecompleteblindsdialog/changecompleteblindsdialogimpl.h"; sourceTree = "<absolute>"; };
+		4E3118FE1A8C4A3CC35A25E7 /* ui_selectavatardialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_selectavatardialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_selectavatardialog.h"; sourceTree = "<absolute>"; };
+		51D5174A47149F611A4D2F48 /* ui_manualblindsorderdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_manualblindsorderdialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_manualblindsorderdialog.h"; sourceTree = "<absolute>"; };
+		51FE7D2C9C76B787F391CA33 /* net_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = net_helper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/net_helper.h"; sourceTree = "<absolute>"; };
+		5267FD0AEA6DE3B1047BCDEB /* qicns */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qicns; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		539A4BC67D1E3B3175CEF093 /* localenginefactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localenginefactory.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localenginefactory.h"; sourceTree = "<absolute>"; };
+		54A083E2F357BFE044982CF8 /* ui_gametable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_gametable.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_gametable.h"; sourceTree = "<absolute>"; };
+		54A5B022CC9864DA6B68BDFC /* loghelper_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = loghelper_client.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/core/common/loghelper_client.cpp"; sourceTree = "<absolute>"; };
+		55779A027DACB62584B8D084 /* moc_mycardspixmaplabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mycardspixmaplabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mycardspixmaplabel.cpp"; sourceTree = "<absolute>"; };
+		57BAC1B0299BB7C2BD747D37 /* localberoturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localberoturn.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localberoturn.h"; sourceTree = "<absolute>"; };
+		58B5A50EBDA3F804ACBDEF92 /* moc_internetgamelogindialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_internetgamelogindialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_internetgamelogindialogimpl.cpp"; sourceTree = "<absolute>"; };
+		58E40ED616D2DDF50DABCFEE /* berointerface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = berointerface.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/berointerface.h"; sourceTree = "<absolute>"; };
+		5914E4C564920BDBBE269E16 /* joinnetworkgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = joinnetworkgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/joinnetworkgamedialog/joinnetworkgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		593965C93931460F65A189E8 /* logfiledialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = logfiledialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/logfiledialog.ui"; sourceTree = "<absolute>"; };
+		596C9CB4E7EA0CDBD1C19F0C /* enginefactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = enginefactory.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/enginefactory.h"; sourceTree = "<absolute>"; };
+		599A59F7752DC5D8DD4680DC /* qtsingleapplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qtsingleapplication.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtsingleapplication/qtsingleapplication.h"; sourceTree = "<absolute>"; };
+		59BC77AEEB869BAFDE9B381D /* ui_logfiledialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_logfiledialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_logfiledialog.h"; sourceTree = "<absolute>"; };
+		59CEF0B9D58FFC5E95DB1E59 /* localberoriver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localberoriver.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localberoriver.h"; sourceTree = "<absolute>"; };
+		5A322F1E89C36415EA583CD2 /* moc_guilog.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_guilog.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_guilog.cpp"; sourceTree = "<absolute>"; };
+		5A3DFCA8DDF23D77CA7EC712 /* gsasl */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = gsasl; path = "../iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/lib/libgsasl.a"; sourceTree = "<absolute>"; };
+		5B16A00665FF6659E16D849A /* pokerth_plugin_import.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pokerth_plugin_import.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/pokerth_plugin_import.cpp"; sourceTree = "<absolute>"; };
+		5C9C28DA6A7F03575A9F06B4 /* gamelobbydialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = gamelobbydialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog.ui"; sourceTree = "<absolute>"; };
+		5C9CF3AE05696E018B4FEB80 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost_thread.a; sourceTree = "<absolute>"; };
+		5CE615073C47A1B7F67D7B78 /* moc_chattools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_chattools.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_chattools.cpp"; sourceTree = "<absolute>"; };
+		5D7E1672E190794C32CE33F5 /* selectavatardialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text; name = selectavatardialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/selectavatardialog.ui"; sourceTree = "<absolute>"; };
+		63394DD9C224C7F71E1E97F7 /* qtlocalpeer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qtlocalpeer.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtsingleapplication/qtlocalpeer.cpp"; sourceTree = "<absolute>"; };
+		635189467A994709B690B60E /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost_system.a; sourceTree = "<absolute>"; };
+		6413A1EE4C2F86423A158396 /* qtlocalpeer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qtlocalpeer.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtsingleapplication/qtlocalpeer.h"; sourceTree = "<absolute>"; };
+		65BCBB8C0CFDE3EF3DF743A6 /* qsqlite */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qsqlite; path = "../../../../Qt/5.4/ios/plugins/sqldrivers/libqsqlite$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		6961280210A84250127289B2 /* moc_changecompleteblindsdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_changecompleteblindsdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_changecompleteblindsdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		69A19269309B1C3A8338679E /* socket_helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = socket_helper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/socket_helper.h"; sourceTree = "<absolute>"; };
+		6A1CFA98B9E223337B2718AE /* moc_mychancelabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mychancelabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mychancelabel.cpp"; sourceTree = "<absolute>"; };
+		6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		6C4C31E8E475057B16EB3393 /* qtlockedfile_unix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qtlockedfile_unix.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtlockedfile/qtlockedfile_unix.cpp"; sourceTree = "<absolute>"; };
+		6E4600971BE09CB6219B2591 /* aboutpokerthimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = aboutpokerthimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/aboutpokerth/aboutpokerthimpl.cpp"; sourceTree = "<absolute>"; };
+		6F41F5D3827DD8EC9003C0FA /* mychancelabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mychancelabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mychancelabel.cpp"; sourceTree = "<absolute>"; };
+		6F5C46BFA8A14301ECC24913 /* startwindow.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = startwindow.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/startwindow.ui"; sourceTree = "<absolute>"; };
+		70189F159AC13EE47EF493F9 /* ui_startnetworkgamedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_startnetworkgamedialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_startnetworkgamedialog.h"; sourceTree = "<absolute>"; };
+		709170AD3BD93BA239AAB435 /* Qt5Gui */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Gui; path = "../../../../Qt/5.4/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		70E4FBE1A8B0DEC700631D2A /* mymessagebox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mymessagebox.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/mymessagebox/mymessagebox.cpp"; sourceTree = "<absolute>"; };
+		7139D0A5F7116A160ACA5B81 /* newgamedialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = newgamedialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/newlocalgamedialog/newgamedialogimpl.h"; sourceTree = "<absolute>"; };
+		723D206C2D092C123B05D816 /* session.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = session.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/session.h"; sourceTree = "<absolute>"; };
+		73272A9B842697AA6B5542D9 /* soundevents.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = soundevents.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/sound/soundevents.cpp"; sourceTree = "<absolute>"; };
+		735E6AFA74E337BAB8459565 /* moc_mynicklistsortfilterproxymodel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mynicklistsortfilterproxymodel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mynicklistsortfilterproxymodel.cpp"; sourceTree = "<absolute>"; };
+		7481E104063C04A1D9BDCFC5 /* manualblindsorderdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = manualblindsorderdialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/manualblindsorderdialog.ui"; sourceTree = "<absolute>"; };
+		749D8C0D60B3A2CE1A01D74B /* socket_startup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = socket_startup.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/socket_startup.h"; sourceTree = "<absolute>"; };
+		74F0D821332A8DB351A32380 /* moc_joinnetworkgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_joinnetworkgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_joinnetworkgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		7721D0D149D34EDC7F673AAD /* thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = thread.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/core/thread.h"; sourceTree = "<absolute>"; };
+		773526C7141343CA6BE6C425 /* Qt5PlatformSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5PlatformSupport; path = "../../../../Qt/5.4/ios/lib/libQt5PlatformSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		77C05D2835BC7C71BDD76E53 /* moc_mymessagebox.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mymessagebox.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mymessagebox.cpp"; sourceTree = "<absolute>"; };
+		77C14E44BA1CA66A0C4F3A16 /* ssl */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ssl; path = ../iOS_Libs/openssl/lib/iOS/libssl.a; sourceTree = "<absolute>"; };
+		77CAF1DBF13CEE8748C93D4F /* internetgamelogindialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = internetgamelogindialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/internetgamelogindialog/internetgamelogindialogimpl.h"; sourceTree = "<absolute>"; };
+		77CD5AE721F63491662B05B6 /* guilog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = guilog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/log/guilog.h"; sourceTree = "<absolute>"; };
+		7843F0C1C3BAEA086606FA9B /* ui_changecompleteblindsdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_changecompleteblindsdialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_changecompleteblindsdialog.h"; sourceTree = "<absolute>"; };
+		7A2FEB5CE7EFFE381074BBED /* moc_qtlocalpeer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_qtlocalpeer.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_qtlocalpeer.cpp"; sourceTree = "<absolute>"; };
+		7A5AF502E8006E6A9AB0AD41 /* manualblindsorderdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = manualblindsorderdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/manualblindsorderdialog/manualblindsorderdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		7B3CA7B01535405D32282A9D /* qtiff */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtiff; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		7B94EBB113CD492F55743D7F /* tinyxmlerror.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/tinyxml/tinyxmlerror.cpp"; sourceTree = "<absolute>"; };
+		7D7B02101166B76FD2D4F8B4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = /System/Library/Frameworks/CoreText.framework; sourceTree = "<absolute>"; };
+		7DB8872E99CB63E75EE630BA /* senderhelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = senderhelper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/senderhelper.h"; sourceTree = "<absolute>"; };
+		7E45FEE81023AA326277240E /* gamelobbydialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gamelobbydialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/gamelobbydialogimpl.h"; sourceTree = "<absolute>"; };
+		7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		7F24E3CF1C696A8E5A060274 /* timeoutmsgboximpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = timeoutmsgboximpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/timeoutmsgbox/timeoutmsgboximpl.h"; sourceTree = "<absolute>"; };
+		806536F51BB191595379E0B3 /* qdds */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qdds; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqdds$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		8646FA254D6D1BF6672F6A81 /* clientboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientboard.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/network_engine/clientboard.h"; sourceTree = "<absolute>"; };
+		87025C352A50DDDBB9A80FFF /* boardinterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = boardinterface.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/boardinterface.h"; sourceTree = "<absolute>"; };
+		87D63553DA9BC67DFE29FC9C /* timeoutmsgboximpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = timeoutmsgboximpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/timeoutmsgbox/timeoutmsgboximpl.cpp"; sourceTree = "<absolute>"; };
+		883D4E5A6D79A2AAAE05D227 /* connecttoserverdialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = connecttoserverdialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/connecttoserverdialog/connecttoserverdialogimpl.h"; sourceTree = "<absolute>"; };
+		888B170C0CD3663040F0E553 /* Qt5Sql */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Sql; path = "../../../../Qt/5.4/ios/lib/libQt5Sql$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		8C825A10247D0865A6E485EF /* ui_createnetworkgamedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_createnetworkgamedialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_createnetworkgamedialog.h"; sourceTree = "<absolute>"; };
+		8CF09797F108638AF892D5EC /* mystylelistitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mystylelistitem.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/mystylelistitem.h"; sourceTree = "<absolute>"; };
+		8D1EB2E1E0121BB4D4E3ABB2 /* localberoflop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localberoflop.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localberoflop.h"; sourceTree = "<absolute>"; };
+		8DD04B3F39F6767BB7593B1C /* replay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = replay.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/replay.cpp"; sourceTree = "<absolute>"; };
+		8DE344668FF5BDE850367CC7 /* aboutpokerthimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aboutpokerthimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/aboutpokerth/aboutpokerthimpl.h"; sourceTree = "<absolute>"; };
+		8E4CC38A07A74DCCBA91C5D2 /* moc_gametablestylereader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_gametablestylereader.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_gametablestylereader.cpp"; sourceTree = "<absolute>"; };
+		8E4F03905E4DF7940861D0DC /* myavatarlistitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = myavatarlistitem.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/selectavatardialog/myavatarlistitem.cpp"; sourceTree = "<absolute>"; };
+		917DD6E5BC318D4080394F1E /* pokerth_db */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = pokerth_db; path = lib/libpokerth_db.a; sourceTree = "<absolute>"; };
+		93CADBFFC1DA2746CB1A9BFE /* moc_startnetworkgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_startnetworkgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_startnetworkgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		9545E8951C18690F0E19C416 /* mystylelistitem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mystylelistitem.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/mystylelistitem.cpp"; sourceTree = "<absolute>"; };
+		967F340E194A32B5284FB41C /* libboost.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost.a; sourceTree = "<absolute>"; };
+		970CA6C9BF1DB15C95A4225B /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = game.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/game.h"; sourceTree = "<absolute>"; };
+		97AB8A0B4B18E6493FC031F7 /* qtsingleapplication.pri */ = {isa = PBXFileReference; lastKnownFileType = text; name = qtsingleapplication.pri; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtsingleapplication/qtsingleapplication.pri"; sourceTree = "<absolute>"; };
+		985FFAD45C383019C1B2AFE7 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/GameController.framework; sourceTree = "<absolute>"; };
+		986117567CE978CE45061FE5 /* moc_selectavatardialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_selectavatardialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_selectavatardialogimpl.cpp"; sourceTree = "<absolute>"; };
+		9A3C9B6D2EF1F6859B741327 /* serverlistdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = serverlistdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/serverlistdialog/serverlistdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		9A3F8996038C579095E80DF4 /* clientplayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientplayer.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/network_engine/clientplayer.h"; sourceTree = "<absolute>"; };
+		9C6DCF2F47C78566C8E119DA /* ui_serverlistdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_serverlistdialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_serverlistdialog.h"; sourceTree = "<absolute>"; };
+		9C826C816170339977428984 /* pokerth.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = pokerth.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/pokerth.cpp"; sourceTree = "<absolute>"; };
+		9D3D7964F80CCAEE64C0ECAC /* tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tools.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/tools.h"; sourceTree = "<absolute>"; };
+		9E55E567EEE8C808DEF7AF9D /* myactionbutton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myactionbutton.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myactionbutton.h"; sourceTree = "<absolute>"; };
+		A005E7FA69D44150FA7EBE3B /* moc_createinternetgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_createinternetgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_createinternetgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		A2E3ED9D4C04AAE29B51A7D6 /* moc_mytimeoutlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mytimeoutlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mytimeoutlabel.cpp"; sourceTree = "<absolute>"; };
+		A3B0889036E7679FAF034216 /* clientbero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientbero.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/network_engine/clientbero.h"; sourceTree = "<absolute>"; };
+		A45D2468CCCE5CF8A7CF7710 /* genericsocket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = genericsocket.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/genericsocket.h"; sourceTree = "<absolute>"; };
+		A4CDDA5413C0078771AAB1F2 /* serverlistdialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = serverlistdialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/serverlistdialog/serverlistdialogimpl.h"; sourceTree = "<absolute>"; };
+		A7E34FD57901BBF89AF43DB8 /* gametablestylereader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gametablestylereader.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/styles/gametablestylereader.h"; sourceTree = "<absolute>"; };
+		A82A8054AA25FF8CD8BA79A1 /* mystatuslabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mystatuslabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mystatuslabel.h"; sourceTree = "<absolute>"; };
+		A9714EE2A1ACFBFF6E09826E /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost_filesystem.a; sourceTree = "<absolute>"; };
+		AB0EAE50D5C502BE6896110E /* mynicklistsortfilterproxymodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mynicklistsortfilterproxymodel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/mynicklistsortfilterproxymodel.h"; sourceTree = "<absolute>"; };
+		AB745978DF0F41D1801ABDA6 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/.qmake.stash"; sourceTree = "<absolute>"; };
+		ABDB107E56898796950F16D2 /* moc_manualblindsorderdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_manualblindsorderdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_manualblindsorderdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		ADA8D1D86208E3F6A70CC135 /* ui_changecontentdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_changecontentdialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_changecontentdialog.h"; sourceTree = "<absolute>"; };
+		AFC7D4E6EA50B941672CA021 /* clientenginefactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientenginefactory.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/network_engine/clientenginefactory.h"; sourceTree = "<absolute>"; };
+		B015307F0872EF1750068E3C /* net_helper_client.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = net_helper_client.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/common/net_helper_client.cpp"; sourceTree = "<absolute>"; };
+		B0696C884EFBC924DAF7D244 /* changecompleteblindsdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = changecompleteblindsdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/changecompleteblindsdialog/changecompleteblindsdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		B075EFD098558D18458EC2C2 /* moc_startwindowimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_startwindowimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_startwindowimpl.cpp"; sourceTree = "<absolute>"; };
+		B21D8465B2795F5A4DBA004B /* clientcallback.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clientcallback.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/clientcallback.h"; sourceTree = "<absolute>"; };
+		B2AA5394D662B0A1C2EEC669 /* moc_mysetlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mysetlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mysetlabel.cpp"; sourceTree = "<absolute>"; };
+		B42E6A6031D96BF0D1B03201 /* mylefttabwidget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mylefttabwidget.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mylefttabwidget.h"; sourceTree = "<absolute>"; };
+		B466920FFD09847BC3DEE0A1 /* startwindowimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = startwindowimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/startwindow/startwindowimpl.cpp"; sourceTree = "<absolute>"; };
+		B5912860F44CA32950391AC6 /* moc_mygamelisttreewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mygamelisttreewidget.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mygamelisttreewidget.cpp"; sourceTree = "<absolute>"; };
+		B5924CD70A27870631808973 /* qtharfbuzzng */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtharfbuzzng; path = "../../../../Qt/5.4/ios/lib/libqtharfbuzzng$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		B646A58E3684D3752E97E01B /* manualblindsorderdialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = manualblindsorderdialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/manualblindsorderdialog/manualblindsorderdialogimpl.h"; sourceTree = "<absolute>"; };
+		B67A79CE0B019B82E8AF5F08 /* tinyxml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/tinyxml/tinyxml.cpp"; sourceTree = "<absolute>"; };
+		B729D348F8EE05F4039C747F /* moc_startsplash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_startsplash.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_startsplash.cpp"; sourceTree = "<absolute>"; };
+		B72B26B20C0208EF06410EBB /* guiinterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = guiinterface.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/guiinterface.h"; sourceTree = "<absolute>"; };
+		B869F5F074ABDC82ADC506A3 /* pokerth.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = pokerth.qrc; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/resources/pokerth.qrc"; sourceTree = "<absolute>"; };
+		B93132D7C67CE57BAF8605E1 /* connecttoserverdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = connecttoserverdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/connecttoserverdialog/connecttoserverdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		B940340E1123D47E41501169 /* clienthand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = clienthand.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/network_engine/clienthand.h"; sourceTree = "<absolute>"; };
+		B9834DF838BD025715A2D06B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = "<absolute>"; };
+		BA30CE07389304E5B0FA6308 /* moc_timeoutmsgboximpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_timeoutmsgboximpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_timeoutmsgboximpl.cpp"; sourceTree = "<absolute>"; };
+		BA538AB90B915A76158CCC39 /* internetgamelogindialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = internetgamelogindialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/internetgamelogindialog/internetgamelogindialogimpl.cpp"; sourceTree = "<absolute>"; };
+		BA91AF68F29397E52A24077C /* mymessagedialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mymessagedialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/mymessagedialog/mymessagedialogimpl.h"; sourceTree = "<absolute>"; };
+		BE96A085A2ED812CA4687E05 /* qtlockedfile.pri */ = {isa = PBXFileReference; lastKnownFileType = text; name = qtlockedfile.pri; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtlockedfile/qtlockedfile.pri"; sourceTree = "<absolute>"; };
+		BEAA5D70120F3EAFD3B4E0BD /* chattools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = chattools.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/chattools/chattools.h"; sourceTree = "<absolute>"; };
+		BF50957892AF7A011A38ABE9 /* ui_internetgamelogindialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_internetgamelogindialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_internetgamelogindialog.h"; sourceTree = "<absolute>"; };
+		BF7D05E47529EAAA51256C24 /* mycashlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mycashlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mycashlabel.cpp"; sourceTree = "<absolute>"; };
+		C04E8CD7499A04916A9E93E8 /* gamedata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gamedata.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gamedata.h"; sourceTree = "<absolute>"; };
+		C0DCB77107F1154D04A1CF9A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/pokerth.xcodeproj/Default-568h@2x.png"; sourceTree = "<absolute>"; };
+		C15D7EAF5755BA4D38E6654F /* ui_mymessagedialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_mymessagedialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_mymessagedialog.h"; sourceTree = "<absolute>"; };
+		C2BCD5EFCF51AFE9E8AB8E20 /* joinnetworkgamedialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = joinnetworkgamedialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/joinnetworkgamedialog.ui"; sourceTree = "<absolute>"; };
+		C391E699E0E98FC1658C05EE /* ui_aboutpokerth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_aboutpokerth.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_aboutpokerth.h"; sourceTree = "<absolute>"; };
+		C549F750081A4725511C229F /* qttoolswrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qttoolswrapper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/qttools/qttoolswrapper.h"; sourceTree = "<absolute>"; };
+		C60A1580C791858FC924F836 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/pokerth.xcodeproj/LaunchScreen.xib"; sourceTree = "<absolute>"; };
+		C66120EEDAAD22DB91B805AF /* internetgamelogindialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = internetgamelogindialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/internetgamelogindialog.ui"; sourceTree = "<absolute>"; };
+		C84B15D1575EF472330E8FB1 /* qttoolsinterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qttoolsinterface.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qttoolsinterface.h"; sourceTree = "<absolute>"; };
+		C8634330A6EE5C92D2530ECF /* mygamelisttreewidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = mygamelisttreewidget.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gamelobbydialog/mygamelisttreewidget.cpp"; sourceTree = "<absolute>"; };
+		C9DBD54C7F50EDCA26022957 /* createinternetgamedialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = createinternetgamedialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/createinternetgamedialog/createinternetgamedialogimpl.h"; sourceTree = "<absolute>"; };
+		CADDECEAD018898C9F9D80F1 /* guiwrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = guiwrapper.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/guiwrapper.cpp"; sourceTree = "<absolute>"; };
+		CBC19204CAA9CCA7C7ADB0FD /* joinnetworkgamedialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = joinnetworkgamedialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/joinnetworkgamedialog/joinnetworkgamedialogimpl.h"; sourceTree = "<absolute>"; };
+		CC2829B102AD0F222852169D /* mytimeoutlabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mytimeoutlabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/mytimeoutlabel.h"; sourceTree = "<absolute>"; };
+		CCF01D2EE8692D6ABE3CE862 /* myavatarlistitem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myavatarlistitem.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/selectavatardialog/myavatarlistitem.h"; sourceTree = "<absolute>"; };
+		CDC08AE3F4E67A0A8B15EE9B /* moc_settingsdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_settingsdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_settingsdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		D086B3B53F41393CD179191B /* localboard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localboard.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localboard.h"; sourceTree = "<absolute>"; };
+		D21D57C8BD8284D0777CD629 /* guiwrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = guiwrapper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/guiwrapper.h"; sourceTree = "<absolute>"; };
+		D3157A15F344263B9E64E85B /* Qt5Widgets */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Widgets; path = "../../../../Qt/5.4/ios/lib/libQt5Widgets$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		D37A0090CF069ADF1863D11F /* startwindowimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = startwindowimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/startwindow/startwindowimpl.h"; sourceTree = "<absolute>"; };
+		D44C20BB7F952199D892D972 /* moc_serverlistdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_serverlistdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_serverlistdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		D781ECB095A47185000EC1DE /* qtlockedfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = qtlockedfile.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtlockedfile/qtlockedfile.h"; sourceTree = "<absolute>"; };
+		D9E3907B7671E4EC9BEEBF2B /* ui_connecttoserverdialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_connecttoserverdialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_connecttoserverdialog.h"; sourceTree = "<absolute>"; };
+		DB5A5B130B86276A74F46B95 /* cardsvalue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cardsvalue.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/cardsvalue.h"; sourceTree = "<absolute>"; };
+		DD09DA9BD5985F8ED60CAF07 /* qtga */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtga; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		DDC61F8854F3EEDD11CC7900 /* libboost_random.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_random.a; path = ../iOS_Libs/boost/boost155/ios/build/armv7/libboost_random.a; sourceTree = "<absolute>"; };
+		DF6A45E8CAB954543474F2C2 /* pokerth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokerth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF72F2BF174EB62AA3996E45 /* ui_startwindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_startwindow.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/uics/ui_startwindow.h"; sourceTree = "<absolute>"; };
+		E0143AFD8E751B7764349B5E /* pokerth_game.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = pokerth_game.pro; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/pokerth_game.pro"; sourceTree = "<absolute>"; };
+		E031D4A3F36ECA2324095F31 /* localhand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localhand.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localhand.h"; sourceTree = "<absolute>"; };
+		E21BBC82FC09996C94B9FBCA /* libSDL2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDL2.a; path = ../iOS_Libs/SDL/SDL/lib/libSDL2.a; sourceTree = "<absolute>"; };
+		E22EFE2EA8C0CCC4063C510B /* replay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = replay.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/replay.h"; sourceTree = "<absolute>"; };
+		E2DFB218D094BCB25D432E2F /* myslider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myslider.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myslider.h"; sourceTree = "<absolute>"; };
+		E37567DFF7FF9B0F4D625EBD /* qjp2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qjp2; path = "../../../../Qt/5.4/ios/plugins/imageformats/libqjp2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E38D4F22F989A58436241D1B /* startnetworkgamedialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = startnetworkgamedialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/startnetworkgamedialog/startnetworkgamedialogimpl.h"; sourceTree = "<absolute>"; };
+		E4C675ED12E2347727AE9617 /* localberopreflop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localberopreflop.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localberopreflop.h"; sourceTree = "<absolute>"; };
+		E6F75F7D66F4B04286FD89A9 /* settingsdialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = settingsdialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/settingsdialogimpl.cpp"; sourceTree = "<absolute>"; };
+		E704829D7E5D0A40D5D3D88F /* settingsdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = settingsdialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog.ui"; sourceTree = "<absolute>"; };
+		E7BB333645DD0BBEAE63FF86 /* moc_myrighttabwidget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_myrighttabwidget.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_myrighttabwidget.cpp"; sourceTree = "<absolute>"; };
+		E9C7EA5ABF995FFE0BA4A5D1 /* serverlistdialog.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = serverlistdialog.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/serverlistdialog.ui"; sourceTree = "<absolute>"; };
+		EAC8B3A4A3D1B21D7C6541F9 /* logfiledialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = logfiledialog.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/logfiledialog/logfiledialog.h"; sourceTree = "<absolute>"; };
+		EC8BD371528A091779B158C7 /* changecontentdialogimpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = changecontentdialogimpl.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/changecontentdialog/changecontentdialogimpl.h"; sourceTree = "<absolute>"; };
+		ED94100E030872A8243257C7 /* gametableimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gametableimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/gametableimpl.cpp"; sourceTree = "<absolute>"; };
+		EDB39EA1D5F8A84F11A318B9 /* servermanagerfactoryclient.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = servermanagerfactoryclient.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/net/common/servermanagerfactoryclient.cpp"; sourceTree = "<absolute>"; };
+		EF1887446B68296B190A7098 /* gametablestylereader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = gametablestylereader.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/styles/gametablestylereader.cpp"; sourceTree = "<absolute>"; };
+		EF1AF4EDDE824A5546EBBC8D /* myactionbutton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = myactionbutton.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myactionbutton.cpp"; sourceTree = "<absolute>"; };
+		F18BDD262E5B48CC16527EAE /* curl */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = curl; path = ../iOS_Libs/curl/lib/libcurl.a; sourceTree = "<absolute>"; };
+		F19671EDEC997EF6C86247A2 /* moc_myslider.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_myslider.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_myslider.cpp"; sourceTree = "<absolute>"; };
+		F2E97B3629580345840361D1 /* tinystr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/tinyxml/tinystr.cpp"; sourceTree = "<absolute>"; };
+		F2F1DF1552EC4A0D0EC14A0D /* myavatarbutton.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = myavatarbutton.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/settingsdialog/myavatarbutton.cpp"; sourceTree = "<absolute>"; };
+		F3042B33FB9D06F4E35D1FCD /* serverguiwrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = serverguiwrapper.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/generic/serverguiwrapper.h"; sourceTree = "<absolute>"; };
+		F35C0908012B7D6A69FE7FEC /* moc_gametableimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_gametableimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_gametableimpl.cpp"; sourceTree = "<absolute>"; };
+		F48EA94E1B4E456E20A8CC64 /* configfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = configfile.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/config/configfile.h"; sourceTree = "<absolute>"; };
+		F5DBEB5302F58EDC49C4CA78 /* myavatarlabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = myavatarlabel.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myavatarlabel.h"; sourceTree = "<absolute>"; };
+		F60F3B2DD5BE158F6CB21921 /* myavatarlabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = myavatarlabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable/myavatarlabel.cpp"; sourceTree = "<absolute>"; };
+		F654A8D9112A37B028CA7EED /* moc_createnetworkgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_createnetworkgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_createnetworkgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		F69BB8CC7FA979E288F82366 /* moc_gamelobbydialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_gamelobbydialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_gamelobbydialogimpl.cpp"; sourceTree = "<absolute>"; };
+		F6C6D918956ABEAE7CE28CF6 /* localbero.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = localbero.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/engine/local_engine/localbero.h"; sourceTree = "<absolute>"; };
+		F8257B6879785544498A98D3 /* newgamedialogimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = newgamedialogimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/newlocalgamedialog/newgamedialogimpl.cpp"; sourceTree = "<absolute>"; };
+		F82B0617232EB85AB5A765C8 /* carddeckstylereader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = carddeckstylereader.h; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/styles/carddeckstylereader.h"; sourceTree = "<absolute>"; };
+		F8317754C744452E81B38A7A /* qtlockedfile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qtlockedfile.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/third_party/qtlockedfile/qtlockedfile.cpp"; sourceTree = "<absolute>"; };
+		F8848622783E7A262383C838 /* qttoolswrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qttoolswrapper.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/qttools/qttoolswrapper.cpp"; sourceTree = "<absolute>"; };
+		F8AD568FA915E22C89FA4C29 /* gametable.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = gametable.ui; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/src/gui/qt/gametable.ui"; sourceTree = "<absolute>"; };
+		FCC237CA5AD60B9BA4447615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FCD3E77BAEA08845A8FB842C /* moc_mystatuslabel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_mystatuslabel.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_mystatuslabel.cpp"; sourceTree = "<absolute>"; };
+		FE013C39A88F78F63C714E66 /* moc_aboutpokerthimpl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_aboutpokerthimpl.cpp; path = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/mocs/moc_aboutpokerthimpl.cpp"; sourceTree = "<absolute>"; };
+		FF5BDAB0076F3391B219EA52 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419BF44599D06773DCBD9C43 /* libSDL2.a in Link Binary With Libraries */,
+				6AC243A11BFDBFC20FCA311D /* libSDL2_mixer.a in Link Binary With Libraries */,
+				1A124A79A5AF30A9D9064F56 /* pokerth_lib in Link Binary With Libraries */,
+				F5B0CF6852C121A6B665C902 /* pokerth_db in Link Binary With Libraries */,
+				C51FAA77CC3ABA2C1A22B8CD /* pokerth_protocol in Link Binary With Libraries */,
+				27D7EAF1F78DB0975E03A468 /* curl in Link Binary With Libraries */,
+				49A5011CEA096D302C79197A /* protobuf in Link Binary With Libraries */,
+				649015599A9E603A4B4A4D62 /* ssl in Link Binary With Libraries */,
+				A484749CFA4BB3C9AC861FF0 /* crypto in Link Binary With Libraries */,
+				C5F8D40896676D0DDCCB8B9A /* gsasl in Link Binary With Libraries */,
+				E5BBABE6E3DEF0B40B65DD71 /* GameController.framework in Link Binary With Libraries */,
+				37D8D8824C3EE3FD44B49F96 /* CoreMotion.framework in Link Binary With Libraries */,
+				CEF213B784C58E4D6EC51BDB /* libboost_thread.a in Link Binary With Libraries */,
+				611EB18B348A2C28E23743C6 /* libboost_filesystem.a in Link Binary With Libraries */,
+				74B946A9DE34E968CBC52210 /* libboost_regex.a in Link Binary With Libraries */,
+				E985528562445CF0677E9AF9 /* libboost_random.a in Link Binary With Libraries */,
+				017317AAE2E92C237ECF369C /* libboost_system.a in Link Binary With Libraries */,
+				304DE53A94CAB7130476C54D /* libboost_iostreams.a in Link Binary With Libraries */,
+				9C9B09BB0CC6D09CE97BE92E /* libboost.a in Link Binary With Libraries */,
+				7A492BA3E98B6144A4855A06 /* qios in Link Binary With Libraries */,
+				F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */,
+				B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */,
+				F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */,
+				2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */,
+				0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */,
+				6B3B7AF3E3AEBA54B5687D26 /* Qt5PlatformSupport in Link Binary With Libraries */,
+				FEE45E63051DEC5545A91C10 /* Qt5Widgets in Link Binary With Libraries */,
+				15364689D2AB5A30E87A689F /* Security.framework in Link Binary With Libraries */,
+				D4639595C3BCF2A39D88DF6E /* SystemConfiguration.framework in Link Binary With Libraries */,
+				17012A69C1BDFBABF2B7172A /* qdds in Link Binary With Libraries */,
+				98D0E491CBD15FD7EC54DB9C /* qicns in Link Binary With Libraries */,
+				DC809000F3FBFADFC862C6F3 /* qico in Link Binary With Libraries */,
+				82E46936979DAC9BF4958EF1 /* qjp2 in Link Binary With Libraries */,
+				BE8959589CE2E3BB0DAA6BDF /* qmng in Link Binary With Libraries */,
+				7304CCDBDFE00322D3D8520B /* qtga in Link Binary With Libraries */,
+				513538FE22FA9288DAFFCBAC /* qtiff in Link Binary With Libraries */,
+				27207932E3282BF2C912FDB4 /* qwbmp in Link Binary With Libraries */,
+				189D49C22E74CEE3BF235047 /* Qt5Gui in Link Binary With Libraries */,
+				861EBFBC8C4452CA9C5E818F /* qtharfbuzzng in Link Binary With Libraries */,
+				5C2E69F5260429D31645EB2E /* qgenericbearer in Link Binary With Libraries */,
+				A0BBECF4EC99A738F6C512B9 /* Qt5Network in Link Binary With Libraries */,
+				9539152D93C21832238B8627 /* qsqlite in Link Binary With Libraries */,
+				4450ADE362BE9C29E1E2F7EE /* Qt5Sql in Link Binary With Libraries */,
+				F5F34D5A366A36DB24DC2249 /* Qt5Core in Link Binary With Libraries */,
+				E2C888E88A160B379741C989 /* z in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000B4E0D8A4D184EA335CBD4 /* qtsingleapplication */ = {
+			isa = PBXGroup;
+			children = (
+				97AB8A0B4B18E6493FC031F7 /* qtsingleapplication.pri */,
+			);
+			name = qtsingleapplication;
+			sourceTree = "<Group>";
+		};
+		0E7A76FF0E015199E24BECEE /* common */ = {
+			isa = PBXGroup;
+			children = (
+				54A5B022CC9864DA6B68BDFC /* loghelper_client.cpp */,
+			);
+			name = common;
+			sourceTree = "<Group>";
+		};
+		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
+			isa = PBXGroup;
+			children = (
+				FB3C908FA6A710AAAE4CE3AA /* src */,
+			);
+			name = "Sources [uic]";
+			sourceTree = "<Group>";
+		};
+		137999521FC769C1BC356D1B /* changecompleteblindsdialog */ = {
+			isa = PBXGroup;
+			children = (
+				B0696C884EFBC924DAF7D244 /* changecompleteblindsdialogimpl.cpp */,
+				4E01042E921D947D29C7AF90 /* changecompleteblindsdialogimpl.h */,
+			);
+			name = changecompleteblindsdialog;
+			sourceTree = "<Group>";
+		};
+		17364E65CD85E7155EC849BF /* qtsingleapplication */ = {
+			isa = PBXGroup;
+			children = (
+				1D471BA2B025668392444ABA /* qtsingleapplication.cpp */,
+				63394DD9C224C7F71E1E97F7 /* qtlocalpeer.cpp */,
+				599A59F7752DC5D8DD4680DC /* qtsingleapplication.h */,
+				6413A1EE4C2F86423A158396 /* qtlocalpeer.h */,
+			);
+			name = qtsingleapplication;
+			sourceTree = "<Group>";
+		};
+		1861C6B450C633E55CA5708E /* gametable */ = {
+			isa = PBXGroup;
+			children = (
+				ED94100E030872A8243257C7 /* gametableimpl.cpp */,
+				2F7535265FC44513228E24AB /* mycardspixmaplabel.cpp */,
+				0208B6DB77C7EF47D701B649 /* mysetlabel.cpp */,
+				EF1AF4EDDE824A5546EBBC8D /* myactionbutton.cpp */,
+				4A20842262CCB685CBC3CAD6 /* mystatuslabel.cpp */,
+				F60F3B2DD5BE158F6CB21921 /* myavatarlabel.cpp */,
+				1FD3948BD88844DC301689B5 /* myrighttabwidget.cpp */,
+				322C2EE197060DC8532058CC /* mylefttabwidget.cpp */,
+				84ECB209BB74A445E790C8D9 /* startsplash */,
+				ABEA20515CD26FAEF4FFCCEC /* log */,
+				6F41F5D3827DD8EC9003C0FA /* mychancelabel.cpp */,
+				2A5E751C59E97D88A9D84CFE /* mytimeoutlabel.cpp */,
+				06AE2965FFAB89CAEAE49E72 /* mynamelabel.cpp */,
+				BF7D05E47529EAAA51256C24 /* mycashlabel.cpp */,
+				1C0DB79FA0FC2C21F1625F6C /* gametableimpl.h */,
+				1D53C30B7949C6312557277B /* mycardspixmaplabel.h */,
+				17A42CE9D5907FD7F852DA0F /* mysetlabel.h */,
+				9E55E567EEE8C808DEF7AF9D /* myactionbutton.h */,
+				A82A8054AA25FF8CD8BA79A1 /* mystatuslabel.h */,
+				F5DBEB5302F58EDC49C4CA78 /* myavatarlabel.h */,
+				22AF754C22139A5773C8DF20 /* myrighttabwidget.h */,
+				B42E6A6031D96BF0D1B03201 /* mylefttabwidget.h */,
+				2210DFEA62F43456C9EFAA87 /* mychancelabel.h */,
+				CC2829B102AD0F222852169D /* mytimeoutlabel.h */,
+				0FCE44C4F23BBBC744C76F39 /* mynamelabel.h */,
+				E2DFB218D094BCB25D432E2F /* myslider.h */,
+				352334810C8D040E8FCBA789 /* mycashlabel.h */,
+			);
+			name = gametable;
+			sourceTree = "<Group>";
+		};
+		1E8FB761A92E95D7279BC893 /* local_engine */ = {
+			isa = PBXGroup;
+			children = (
+				8DD04B3F39F6767BB7593B1C /* replay.cpp */,
+				DB5A5B130B86276A74F46B95 /* cardsvalue.h */,
+				D086B3B53F41393CD179191B /* localboard.h */,
+				539A4BC67D1E3B3175CEF093 /* localenginefactory.h */,
+				E031D4A3F36ECA2324095F31 /* localhand.h */,
+				460025F8325DE2ED87940C7C /* localplayer.h */,
+				E4C675ED12E2347727AE9617 /* localberopreflop.h */,
+				8D1EB2E1E0121BB4D4E3ABB2 /* localberoflop.h */,
+				57BAC1B0299BB7C2BD747D37 /* localberoturn.h */,
+				59CEF0B9D58FFC5E95DB1E59 /* localberoriver.h */,
+				0664A7514FE0999A610F0747 /* localberopostriver.h */,
+				9D3D7964F80CCAEE64C0ECAC /* tools.h */,
+				F6C6D918956ABEAE7CE28CF6 /* localbero.h */,
+				E22EFE2EA8C0CCC4063C510B /* replay.h */,
+			);
+			name = local_engine;
+			sourceTree = "<Group>";
+		};
+		242893B0A5EA264C1BCCBCB7 /* settingsdialog */ = {
+			isa = PBXGroup;
+			children = (
+				E6F75F7D66F4B04286FD89A9 /* settingsdialogimpl.cpp */,
+				F2F1DF1552EC4A0D0EC14A0D /* myavatarbutton.cpp */,
+				3615BA154BCB334CD173D314 /* myhpavatarbutton.cpp */,
+				AE3912E1AE5FAE9CD0E0E819 /* selectavatardialog */,
+				5D9A544517F3B6B3587D26DA /* manualblindsorderdialog */,
+				9545E8951C18690F0E19C416 /* mystylelistitem.cpp */,
+				0AF77BE0F1B04C29BEF2D0A9 /* settingsdialogimpl.h */,
+				1EC70685AE428EA119F62738 /* myavatarbutton.h */,
+				1F6029C9808CE715968AE5D1 /* myhpavatarbutton.h */,
+				8CF09797F108638AF892D5EC /* mystylelistitem.h */,
+			);
+			name = settingsdialog;
+			sourceTree = "<Group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40677A0DE1A1CE6138E04D13 /* qrc_pokerth.cpp */,
+				95D360FD113757EFC47C8E86 /* mocs */,
+				F35308178EFCCEACA080964A /* uics */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2DFD4281C990593289395D3C /* engine */ = {
+			isa = PBXGroup;
+			children = (
+				1E8FB761A92E95D7279BC893 /* local_engine */,
+				970CA6C9BF1DB15C95A4225B /* game.h */,
+				87025C352A50DDDBB9A80FFF /* boardinterface.h */,
+				596C9CB4E7EA0CDBD1C19F0C /* enginefactory.h */,
+				4AC2C228BFD5E73A5ABDFA16 /* handinterface.h */,
+				47E2F425F144B8214B717BB6 /* playerinterface.h */,
+				58E40ED616D2DDF50DABCFEE /* berointerface.h */,
+				F65DFC59DAFE9AEE8D226B4C /* network_engine */,
+			);
+			name = engine;
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				921315FAA7F261D737F4F4C7 /* src */,
+				5B16A00665FF6659E16D849A /* pokerth_plugin_import.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<Group>";
+		};
+		3109B34BD72CCEC63FB21418 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				B869F5F074ABDC82ADC506A3 /* pokerth.qrc */,
+			);
+			name = resources;
+			sourceTree = "<Group>";
+		};
+		33DD1506AB08B9DC2B8A2738 /* tinyxml */ = {
+			isa = PBXGroup;
+			children = (
+				F2E97B3629580345840361D1 /* tinystr.cpp */,
+				B67A79CE0B019B82E8AF5F08 /* tinyxml.cpp */,
+				7B94EBB113CD492F55743D7F /* tinyxmlerror.cpp */,
+				02D8EA96675136670114C55F /* tinyxmlparser.cpp */,
+				28EA9E089440CA10B3950F07 /* tinystr.h */,
+				2CC9C794B5D07BDF0FF3EE76 /* tinyxml.h */,
+			);
+			name = tinyxml;
+			sourceTree = "<Group>";
+		};
+		3A971A0629DC6FCCC39F91E6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E90FA9DE119AEB183D09AAB2 /* third_party */,
+				857DA5B4872818A39786EC2C /* gui */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		3C4D13B02A3644A8746A28EF /* common */ = {
+			isa = PBXGroup;
+			children = (
+				B015307F0872EF1750068E3C /* net_helper_client.cpp */,
+				EDB39EA1D5F8A84F11A318B9 /* servermanagerfactoryclient.cpp */,
+			);
+			name = common;
+			sourceTree = "<Group>";
+		};
+		47A2FABD3DEDC65190109DC9 /* changecontentdialog */ = {
+			isa = PBXGroup;
+			children = (
+				3B79B0CE56A3EFD913DE7142 /* changecontentdialogimpl.cpp */,
+				EC8BD371528A091779B158C7 /* changecontentdialogimpl.h */,
+			);
+			name = changecontentdialog;
+			sourceTree = "<Group>";
+		};
+		53C7B1212A71CC34F1C47A4A /* createnetworkgamedialog */ = {
+			isa = PBXGroup;
+			children = (
+				3EA7600170C5623E8FBD94CF /* createnetworkgamedialogimpl.cpp */,
+				476328D98F33E551D83155E7 /* createnetworkgamedialogimpl.h */,
+			);
+			name = createnetworkgamedialog;
+			sourceTree = "<Group>";
+		};
+		556775F9DEFA0DB1A16304BB /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				F3042B33FB9D06F4E35D1FCD /* serverguiwrapper.h */,
+			);
+			name = generic;
+			sourceTree = "<Group>";
+		};
+		5D9A544517F3B6B3587D26DA /* manualblindsorderdialog */ = {
+			isa = PBXGroup;
+			children = (
+				7A5AF502E8006E6A9AB0AD41 /* manualblindsorderdialogimpl.cpp */,
+				B646A58E3684D3752E97E01B /* manualblindsorderdialogimpl.h */,
+			);
+			name = manualblindsorderdialog;
+			sourceTree = "<Group>";
+		};
+		5F88ADBA1DE02AAF16D1C1C2 /* mymessagedialog */ = {
+			isa = PBXGroup;
+			children = (
+				01538460219D2EBE6E0F9A2E /* mymessagedialogimpl.cpp */,
+				BA91AF68F29397E52A24077C /* mymessagedialogimpl.h */,
+			);
+			name = mymessagedialog;
+			sourceTree = "<Group>";
+		};
+		662DCF710994C27821688DD7 /* joinnetworkgamedialog */ = {
+			isa = PBXGroup;
+			children = (
+				5914E4C564920BDBBE269E16 /* joinnetworkgamedialogimpl.cpp */,
+				CBC19204CAA9CCA7C7ADB0FD /* joinnetworkgamedialogimpl.h */,
+			);
+			name = joinnetworkgamedialog;
+			sourceTree = "<Group>";
+		};
+		678A285D40896E0E4786681E /* newlocalgamedialog */ = {
+			isa = PBXGroup;
+			children = (
+				F8257B6879785544498A98D3 /* newgamedialogimpl.cpp */,
+				7139D0A5F7116A160ACA5B81 /* newgamedialogimpl.h */,
+			);
+			name = newlocalgamedialog;
+			sourceTree = "<Group>";
+		};
+		69F1207A65DC436CD57A1E4B /* logfiledialog */ = {
+			isa = PBXGroup;
+			children = (
+				27734A9D569C2BC7F7B98031 /* logfiledialog.cpp */,
+				EAC8B3A4A3D1B21D7C6541F9 /* logfiledialog.h */,
+			);
+			name = logfiledialog;
+			sourceTree = "<Group>";
+		};
+		6AA112531FC348A3C30EB676 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				3C4D13B02A3644A8746A28EF /* common */,
+				B21D8465B2795F5A4DBA004B /* clientcallback.h */,
+				02F3740EFD79DF93F67FFA84 /* clientcontext.h */,
+				2962421760A9CDA1D78D0F65 /* clientexception.h */,
+				3DFF54CD592F5D44184D6F08 /* clientstate.h */,
+				464988B6487BD92B076A7642 /* clientthread.h */,
+				A45D2468CCCE5CF8A7CF7710 /* genericsocket.h */,
+				3BF086AF43DB6FDE2F10FAFD /* netpacket.h */,
+				7DB8872E99CB63E75EE630BA /* senderhelper.h */,
+				43C0D9757F5735D309454A40 /* serveraccepthelper.h */,
+				3B46DFF653D8AAD1B6C6DFCC /* serverlobbythread.h */,
+				69A19269309B1C3A8338679E /* socket_helper.h */,
+				2EA151EF678148F83D30568F /* socket_msg.h */,
+				749D8C0D60B3A2CE1A01D74B /* socket_startup.h */,
+				51FE7D2C9C76B787F391CA33 /* net_helper.h */,
+			);
+			name = net;
+			sourceTree = "<Group>";
+		};
+		6BC5F520FC12809CBF0ED2BE /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				17364E65CD85E7155EC849BF /* qtsingleapplication */,
+				76801C594F8D58D47EE8B1A1 /* qtlockedfile */,
+			);
+			name = third_party;
+			sourceTree = "<Group>";
+		};
+		6BC6C5B3B09E914CAE5F3726 /* serverlistdialog */ = {
+			isa = PBXGroup;
+			children = (
+				9A3C9B6D2EF1F6859B741327 /* serverlistdialogimpl.cpp */,
+				A4CDDA5413C0078771AAB1F2 /* serverlistdialogimpl.h */,
+			);
+			name = serverlistdialog;
+			sourceTree = "<Group>";
+		};
+		7380DE4D8F5C0B0E1055BDF7 /* qthelper */ = {
+			isa = PBXGroup;
+			children = (
+				1D0963A0BC7DD934C6612F95 /* qthelper.cpp */,
+				134FBA0ACD1BCB444FA85F51 /* qthelper.h */,
+			);
+			name = qthelper;
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0143AFD8E751B7764349B5E /* pokerth_game.pro */,
+				AB745978DF0F41D1801ABDA6 /* .qmake.stash */,
+				3A971A0629DC6FCCC39F91E6 /* src */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		76801C594F8D58D47EE8B1A1 /* qtlockedfile */ = {
+			isa = PBXGroup;
+			children = (
+				F8317754C744452E81B38A7A /* qtlockedfile.cpp */,
+				6C4C31E8E475057B16EB3393 /* qtlockedfile_unix.cpp */,
+				D781ECB095A47185000EC1DE /* qtlockedfile.h */,
+			);
+			name = qtlockedfile;
+			sourceTree = "<Group>";
+		};
+		792A1450D71F1E00FA1AD823 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				7D9106A00755E620EA29CFBA /* resources */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		794CEA3269470D59A60FFC26 /* startnetworkgamedialog */ = {
+			isa = PBXGroup;
+			children = (
+				4065E3E47BB52779C401BAF6 /* startnetworkgamedialogimpl.cpp */,
+				E38D4F22F989A58436241D1B /* startnetworkgamedialogimpl.h */,
+			);
+			name = startnetworkgamedialog;
+			sourceTree = "<Group>";
+		};
+		7D9106A00755E620EA29CFBA /* resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = resources;
+			sourceTree = "<Group>";
+		};
+		8342E1E26E041F7306DF21A4 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				BA15A4C3DAA7E4FCAFC01DB9 /* qt */,
+			);
+			name = gui;
+			sourceTree = "<Group>";
+		};
+		84ECB209BB74A445E790C8D9 /* startsplash */ = {
+			isa = PBXGroup;
+			children = (
+				377E15B955341A90B1D44990 /* startsplash.cpp */,
+				412E57DAB9C5FA5CA3D64C96 /* startsplash.h */,
+			);
+			name = startsplash;
+			sourceTree = "<Group>";
+		};
+		857910D53103EB2B10DFE45F /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				73272A9B842697AA6B5542D9 /* soundevents.cpp */,
+				22E27748F987F21398D794B9 /* soundevents.h */,
+			);
+			name = sound;
+			sourceTree = "<Group>";
+		};
+		857DA5B4872818A39786EC2C /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				792A1450D71F1E00FA1AD823 /* qt */,
+			);
+			name = gui;
+			sourceTree = "<Group>";
+		};
+		858FCAB0EB1F29CF8B07677C /* Bundle Data */ = {
+			isa = PBXGroup;
+			children = (
+				C0DCB77107F1154D04A1CF9A /* Default-568h@2x.png */,
+				C60A1580C791858FC924F836 /* LaunchScreen.xib */,
+			);
+			name = "Bundle Data";
+			sourceTree = "<Group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F380266849BE7CF802A85CCF /* src */,
+			);
+			name = Resources;
+			sourceTree = "<Group>";
+		};
+		91A917C8D6AAD1C7CC7782BF /* startwindow */ = {
+			isa = PBXGroup;
+			children = (
+				B466920FFD09847BC3DEE0A1 /* startwindowimpl.cpp */,
+				D37A0090CF069ADF1863D11F /* startwindowimpl.h */,
+			);
+			name = startwindow;
+			sourceTree = "<Group>";
+		};
+		921315FAA7F261D737F4F4C7 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6BC5F520FC12809CBF0ED2BE /* third_party */,
+				9C826C816170339977428984 /* pokerth.cpp */,
+				BDA8F80F8797130B3E44DCBD /* gui */,
+				6AA112531FC348A3C30EB676 /* net */,
+				E62C659644C6E75254031504 /* core */,
+				2DFD4281C990593289395D3C /* engine */,
+				33DD1506AB08B9DC2B8A2738 /* tinyxml */,
+				723D206C2D092C123B05D816 /* session.h */,
+				32B372BC2C04BB09BBE85C4C /* playerdata.h */,
+				C04E8CD7499A04916A9E93E8 /* gamedata.h */,
+				9D6A7FA7287199C1BCEC74AD /* config */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		93F8AE084024CE781C6268DC /* mymessagebox */ = {
+			isa = PBXGroup;
+			children = (
+				70E4FBE1A8B0DEC700631D2A /* mymessagebox.cpp */,
+				47897132901A74FBA4A79F93 /* mymessagebox.h */,
+			);
+			name = mymessagebox;
+			sourceTree = "<Group>";
+		};
+		95D360FD113757EFC47C8E86 /* mocs */ = {
+			isa = PBXGroup;
+			children = (
+				3AC2B0752732B4C063537CAC /* moc_qtsingleapplication.cpp */,
+				7A2FEB5CE7EFFE381074BBED /* moc_qtlocalpeer.cpp */,
+				5CE615073C47A1B7F67D7B78 /* moc_chattools.cpp */,
+				F35C0908012B7D6A69FE7FEC /* moc_gametableimpl.cpp */,
+				55779A027DACB62584B8D084 /* moc_mycardspixmaplabel.cpp */,
+				B2AA5394D662B0A1C2EEC669 /* moc_mysetlabel.cpp */,
+				FCD3E77BAEA08845A8FB842C /* moc_mystatuslabel.cpp */,
+				2C7981D3D4F02965E149262E /* moc_myavatarlabel.cpp */,
+				E7BB333645DD0BBEAE63FF86 /* moc_myrighttabwidget.cpp */,
+				30EA86D7B2CCAEF6DD409A3C /* moc_mylefttabwidget.cpp */,
+				B729D348F8EE05F4039C747F /* moc_startsplash.cpp */,
+				5A322F1E89C36415EA583CD2 /* moc_guilog.cpp */,
+				FE013C39A88F78F63C714E66 /* moc_aboutpokerthimpl.cpp */,
+				1F7375152C66D0E012DD2424 /* moc_connecttoserverdialogimpl.cpp */,
+				F654A8D9112A37B028CA7EED /* moc_createnetworkgamedialogimpl.cpp */,
+				A005E7FA69D44150FA7EBE3B /* moc_createinternetgamedialogimpl.cpp */,
+				74F0D821332A8DB351A32380 /* moc_joinnetworkgamedialogimpl.cpp */,
+				4853B45BA72283522C59F1B6 /* moc_newgamedialogimpl.cpp */,
+				CDC08AE3F4E67A0A8B15EE9B /* moc_settingsdialogimpl.cpp */,
+				986117567CE978CE45061FE5 /* moc_selectavatardialogimpl.cpp */,
+				ABDB107E56898796950F16D2 /* moc_manualblindsorderdialogimpl.cpp */,
+				93CADBFFC1DA2746CB1A9BFE /* moc_startnetworkgamedialogimpl.cpp */,
+				B075EFD098558D18458EC2C2 /* moc_startwindowimpl.cpp */,
+				8E4CC38A07A74DCCBA91C5D2 /* moc_gametablestylereader.cpp */,
+				2F806F31A61BEFD43F7D44A7 /* moc_carddeckstylereader.cpp */,
+				3DB59451B3C83352A3B5BDAF /* moc_changecontentdialogimpl.cpp */,
+				6961280210A84250127289B2 /* moc_changecompleteblindsdialogimpl.cpp */,
+				F69BB8CC7FA979E288F82366 /* moc_gamelobbydialogimpl.cpp */,
+				B5912860F44CA32950391AC6 /* moc_mygamelisttreewidget.cpp */,
+				BA30CE07389304E5B0FA6308 /* moc_timeoutmsgboximpl.cpp */,
+				2912572DF5A6B3C3DEF91EE1 /* moc_mymessagedialogimpl.cpp */,
+				6A1CFA98B9E223337B2718AE /* moc_mychancelabel.cpp */,
+				D44C20BB7F952199D892D972 /* moc_serverlistdialogimpl.cpp */,
+				A2E3ED9D4C04AAE29B51A7D6 /* moc_mytimeoutlabel.cpp */,
+				4BB51BDEFD3C62F25EDF9C70 /* moc_mynamelabel.cpp */,
+				23164E82665B64EE859E5FB1 /* moc_mygamelistsortfilterproxymodel.cpp */,
+				58B5A50EBDA3F804ACBDEF92 /* moc_internetgamelogindialogimpl.cpp */,
+				735E6AFA74E337BAB8459565 /* moc_mynicklistsortfilterproxymodel.cpp */,
+				F19671EDEC997EF6C86247A2 /* moc_myslider.cpp */,
+				3266CEEF4699B484D0858DF1 /* moc_mycashlabel.cpp */,
+				77C05D2835BC7C71BDD76E53 /* moc_mymessagebox.cpp */,
+				08377F46AC7B055DEF68E3D9 /* moc_logfiledialog.cpp */,
+			);
+			name = mocs;
+			sourceTree = "<Group>";
+		};
+		9D6A7FA7287199C1BCEC74AD /* config */ = {
+			isa = PBXGroup;
+			children = (
+				F48EA94E1B4E456E20A8CC64 /* configfile.h */,
+			);
+			name = config;
+			sourceTree = "<Group>";
+		};
+		9E0FBC30CF536C10BCEDB7A2 /* aboutpokerth */ = {
+			isa = PBXGroup;
+			children = (
+				6E4600971BE09CB6219B2591 /* aboutpokerthimpl.cpp */,
+				8DE344668FF5BDE850367CC7 /* aboutpokerthimpl.h */,
+			);
+			name = aboutpokerth;
+			sourceTree = "<Group>";
+		};
+		ABEA20515CD26FAEF4FFCCEC /* log */ = {
+			isa = PBXGroup;
+			children = (
+				3739DCD64098E9108E53FC43 /* guilog.cpp */,
+				77CD5AE721F63491662B05B6 /* guilog.h */,
+			);
+			name = log;
+			sourceTree = "<Group>";
+		};
+		AE3912E1AE5FAE9CD0E0E819 /* selectavatardialog */ = {
+			isa = PBXGroup;
+			children = (
+				16097AECA972E0404DBCD36D /* selectavatardialogimpl.cpp */,
+				8E4F03905E4DF7940861D0DC /* myavatarlistitem.cpp */,
+				4D6D1D713F9E0E31FDC7D79D /* selectavatardialogimpl.h */,
+				CCF01D2EE8692D6ABE3CE862 /* myavatarlistitem.h */,
+			);
+			name = selectavatardialog;
+			sourceTree = "<Group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E21BBC82FC09996C94B9FBCA /* libSDL2.a */,
+				1BF3242F454F48E3ABB78B95 /* libSDL2_mixer.a */,
+				250F736003D820AB798C2C6C /* pokerth_lib */,
+				917DD6E5BC318D4080394F1E /* pokerth_db */,
+				27788A69B7A99AD5AD2ECDE1 /* pokerth_protocol */,
+				F18BDD262E5B48CC16527EAE /* curl */,
+				4A52BB770DE33E2DE5609EC2 /* protobuf */,
+				77C14E44BA1CA66A0C4F3A16 /* ssl */,
+				0BC31CD8EF1C8253DDCADADD /* crypto */,
+				5A3DFCA8DDF23D77CA7EC712 /* gsasl */,
+				985FFAD45C383019C1B2AFE7 /* GameController.framework */,
+				B9834DF838BD025715A2D06B /* CoreMotion.framework */,
+				5C9CF3AE05696E018B4FEB80 /* libboost_thread.a */,
+				A9714EE2A1ACFBFF6E09826E /* libboost_filesystem.a */,
+				3ED57E7A95C9DB5A2EFE53B7 /* libboost_regex.a */,
+				DDC61F8854F3EEDD11CC7900 /* libboost_random.a */,
+				635189467A994709B690B60E /* libboost_system.a */,
+				1E3E9495A9A03E6D9B324B65 /* libboost_iostreams.a */,
+				967F340E194A32B5284FB41C /* libboost.a */,
+				021BBDD573CC2FB716B07B67 /* qios */,
+				FCC237CA5AD60B9BA4447615 /* Foundation.framework */,
+				7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */,
+				4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */,
+				7D7B02101166B76FD2D4F8B4 /* CoreText.framework */,
+				6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */,
+				773526C7141343CA6BE6C425 /* Qt5PlatformSupport */,
+				D3157A15F344263B9E64E85B /* Qt5Widgets */,
+				205259EEEE2BADA5E64741E3 /* Security.framework */,
+				FF5BDAB0076F3391B219EA52 /* SystemConfiguration.framework */,
+				806536F51BB191595379E0B3 /* qdds */,
+				5267FD0AEA6DE3B1047BCDEB /* qicns */,
+				13BD8ADCE887E34EF7987033 /* qico */,
+				E37567DFF7FF9B0F4D625EBD /* qjp2 */,
+				44FFD4F2E11ADB7426BC0623 /* qmng */,
+				DD09DA9BD5985F8ED60CAF07 /* qtga */,
+				7B3CA7B01535405D32282A9D /* qtiff */,
+				050CC7857DA206655AF7D6A7 /* qwbmp */,
+				709170AD3BD93BA239AAB435 /* Qt5Gui */,
+				B5924CD70A27870631808973 /* qtharfbuzzng */,
+				3C63E65142E4019B966E05B6 /* qgenericbearer */,
+				3999C65495DE899FBBB7D296 /* Qt5Network */,
+				65BCBB8C0CFDE3EF3DF743A6 /* qsqlite */,
+				888B170C0CD3663040F0E553 /* Qt5Sql */,
+				40CBF7847B5A4D6B506D6970 /* Qt5Core */,
+				089CC68F00A27ABBE8BB8212 /* z */,
+			);
+			name = Frameworks;
+			sourceTree = "<Group>";
+		};
+		B43D64AA1B178E257D68710D /* connecttoserverdialog */ = {
+			isa = PBXGroup;
+			children = (
+				B93132D7C67CE57BAF8605E1 /* connecttoserverdialogimpl.cpp */,
+				883D4E5A6D79A2AAAE05D227 /* connecttoserverdialogimpl.h */,
+			);
+			name = connecttoserverdialog;
+			sourceTree = "<Group>";
+		};
+		BA15A4C3DAA7E4FCAFC01DB9 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				F8AD568FA915E22C89FA4C29 /* gametable.ui */,
+				077A51BD75DC558FD0BB9DB5 /* aboutpokerth.ui */,
+				3F8868FA1ADA2EE9DF3948D4 /* connecttoserverdialog.ui */,
+				2BF669286B3D35515D0065C9 /* createnetworkgamedialog.ui */,
+				26F8FF306BEB4AF732886465 /* createinternetgamedialog.ui */,
+				C2BCD5EFCF51AFE9E8AB8E20 /* joinnetworkgamedialog.ui */,
+				1B31E0CB9AA362E2B66538CA /* newgamedialog.ui */,
+				E704829D7E5D0A40D5D3D88F /* settingsdialog.ui */,
+				5D7E1672E190794C32CE33F5 /* selectavatardialog.ui */,
+				085D92618A68052331D9033E /* startnetworkgamedialog.ui */,
+				6F5C46BFA8A14301ECC24913 /* startwindow.ui */,
+				3EBAEB5C84120BC19EEBC806 /* changecompleteblindsdialog.ui */,
+				5C9C28DA6A7F03575A9F06B4 /* gamelobbydialog.ui */,
+				4BB328B52D00F1ADFAB8AFE2 /* mymessagedialog.ui */,
+				7481E104063C04A1D9BDCFC5 /* manualblindsorderdialog.ui */,
+				E9C7EA5ABF995FFE0BA4A5D1 /* serverlistdialog.ui */,
+				C66120EEDAAD22DB91B805AF /* internetgamelogindialog.ui */,
+				593965C93931460F65A189E8 /* logfiledialog.ui */,
+				2C4E07A9C68C38A9759AA82C /* changecontentdialog.ui */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		BDA8F80F8797130B3E44DCBD /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				E05B362A2D7A67BE465FF0C3 /* qt */,
+				B72B26B20C0208EF06410EBB /* guiinterface.h */,
+				C84B15D1575EF472330E8FB1 /* qttoolsinterface.h */,
+				556775F9DEFA0DB1A16304BB /* generic */,
+			);
+			name = gui;
+			sourceTree = "<Group>";
+		};
+		C01B8B42871C55601A281C14 /* chattools */ = {
+			isa = PBXGroup;
+			children = (
+				337DA568B3DB4C337E450B69 /* chattools.cpp */,
+				BEAA5D70120F3EAFD3B4E0BD /* chattools.h */,
+			);
+			name = chattools;
+			sourceTree = "<Group>";
+		};
+		C703309F8D8BE3E277A93B7D /* createinternetgamedialog */ = {
+			isa = PBXGroup;
+			children = (
+				0BD2122AEC4DB61EB5B8238E /* createinternetgamedialogimpl.cpp */,
+				C9DBD54C7F50EDCA26022957 /* createinternetgamedialogimpl.h */,
+			);
+			name = createinternetgamedialog;
+			sourceTree = "<Group>";
+		};
+		D0B39D1881037A257AC0943F /* internetgamelogindialog */ = {
+			isa = PBXGroup;
+			children = (
+				BA538AB90B915A76158CCC39 /* internetgamelogindialogimpl.cpp */,
+				77CAF1DBF13CEE8748C93D4F /* internetgamelogindialogimpl.h */,
+			);
+			name = internetgamelogindialog;
+			sourceTree = "<Group>";
+		};
+		D6A20B700E5DFBB550DC6D65 /* qtlockedfile */ = {
+			isa = PBXGroup;
+			children = (
+				BE96A085A2ED812CA4687E05 /* qtlockedfile.pri */,
+			);
+			name = qtlockedfile;
+			sourceTree = "<Group>";
+		};
+		D6D9B1FCBF136531D7DD6CCC /* timeoutmsgbox */ = {
+			isa = PBXGroup;
+			children = (
+				87D63553DA9BC67DFE29FC9C /* timeoutmsgboximpl.cpp */,
+				7F24E3CF1C696A8E5A060274 /* timeoutmsgboximpl.h */,
+			);
+			name = timeoutmsgbox;
+			sourceTree = "<Group>";
+		};
+		E05B362A2D7A67BE465FF0C3 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				C01B8B42871C55601A281C14 /* chattools */,
+				CADDECEAD018898C9F9D80F1 /* guiwrapper.cpp */,
+				F43C1EFD8F82A57A49B4AB38 /* qttools */,
+				1861C6B450C633E55CA5708E /* gametable */,
+				9E0FBC30CF536C10BCEDB7A2 /* aboutpokerth */,
+				B43D64AA1B178E257D68710D /* connecttoserverdialog */,
+				53C7B1212A71CC34F1C47A4A /* createnetworkgamedialog */,
+				C703309F8D8BE3E277A93B7D /* createinternetgamedialog */,
+				662DCF710994C27821688DD7 /* joinnetworkgamedialog */,
+				678A285D40896E0E4786681E /* newlocalgamedialog */,
+				242893B0A5EA264C1BCCBCB7 /* settingsdialog */,
+				794CEA3269470D59A60FFC26 /* startnetworkgamedialog */,
+				91A917C8D6AAD1C7CC7782BF /* startwindow */,
+				F95D746DAA8FD238E4BAE847 /* styles */,
+				47A2FABD3DEDC65190109DC9 /* changecontentdialog */,
+				137999521FC769C1BC356D1B /* changecompleteblindsdialog */,
+				5F88ADBA1DE02AAF16D1C1C2 /* mymessagedialog */,
+				F03D671E706797940A44DC70 /* gamelobbydialog */,
+				D6D9B1FCBF136531D7DD6CCC /* timeoutmsgbox */,
+				6BC6C5B3B09E914CAE5F3726 /* serverlistdialog */,
+				D0B39D1881037A257AC0943F /* internetgamelogindialog */,
+				857910D53103EB2B10DFE45F /* sound */,
+				93F8AE084024CE781C6268DC /* mymessagebox */,
+				69F1207A65DC436CD57A1E4B /* logfiledialog */,
+				D21D57C8BD8284D0777CD629 /* guiwrapper.h */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		E62C659644C6E75254031504 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				0E7A76FF0E015199E24BECEE /* common */,
+				7721D0D149D34EDC7F673AAD /* thread.h */,
+				44A9008E7D20BEEEC44BD4C5 /* loghelper.h */,
+			);
+			name = core;
+			sourceTree = "<Group>";
+		};
+		E7F3F755D8307477CD03BAA5 /* qt */ = {
+			isa = PBXGroup;
+			children = (
+				3109B34BD72CCEC63FB21418 /* resources */,
+			);
+			name = qt;
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* pokerth */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				858FCAB0EB1F29CF8B07677C /* Bundle Data */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = pokerth;
+			sourceTree = "<Group>";
+		};
+		E90FA9DE119AEB183D09AAB2 /* third_party */ = {
+			isa = PBXGroup;
+			children = (
+				D6A20B700E5DFBB550DC6D65 /* qtlockedfile */,
+				000B4E0D8A4D184EA335CBD4 /* qtsingleapplication */,
+			);
+			name = third_party;
+			sourceTree = "<Group>";
+		};
+		F03D671E706797940A44DC70 /* gamelobbydialog */ = {
+			isa = PBXGroup;
+			children = (
+				23838138258771EE553EEB97 /* gamelobbydialogimpl.cpp */,
+				C8634330A6EE5C92D2530ECF /* mygamelisttreewidget.cpp */,
+				042615887960E5CDF971EFC4 /* mygamelistsortfilterproxymodel.cpp */,
+				1213BCEFE986A5680B668C32 /* mynicklistsortfilterproxymodel.cpp */,
+				7E45FEE81023AA326277240E /* gamelobbydialogimpl.h */,
+				35D90BA029CCB78152BA4D6A /* mygamelisttreewidget.h */,
+				040016AA51D39A58492D1B81 /* mygamelistsortfilterproxymodel.h */,
+				AB0EAE50D5C502BE6896110E /* mynicklistsortfilterproxymodel.h */,
+			);
+			name = gamelobbydialog;
+			sourceTree = "<Group>";
+		};
+		F35308178EFCCEACA080964A /* uics */ = {
+			isa = PBXGroup;
+			children = (
+				54A083E2F357BFE044982CF8 /* ui_gametable.h */,
+				C391E699E0E98FC1658C05EE /* ui_aboutpokerth.h */,
+				D9E3907B7671E4EC9BEEBF2B /* ui_connecttoserverdialog.h */,
+				8C825A10247D0865A6E485EF /* ui_createnetworkgamedialog.h */,
+				1E936170F5FC996E197D840D /* ui_createinternetgamedialog.h */,
+				0B50949E1168115FD7B800DA /* ui_joinnetworkgamedialog.h */,
+				051752267C2192FF8579D14D /* ui_newgamedialog.h */,
+				417DA2622E356C183B2C47F6 /* ui_settingsdialog.h */,
+				4E3118FE1A8C4A3CC35A25E7 /* ui_selectavatardialog.h */,
+				70189F159AC13EE47EF493F9 /* ui_startnetworkgamedialog.h */,
+				DF72F2BF174EB62AA3996E45 /* ui_startwindow.h */,
+				7843F0C1C3BAEA086606FA9B /* ui_changecompleteblindsdialog.h */,
+				069D9B6E2D5B8F7ADA186847 /* ui_gamelobbydialog.h */,
+				C15D7EAF5755BA4D38E6654F /* ui_mymessagedialog.h */,
+				51D5174A47149F611A4D2F48 /* ui_manualblindsorderdialog.h */,
+				9C6DCF2F47C78566C8E119DA /* ui_serverlistdialog.h */,
+				BF50957892AF7A011A38ABE9 /* ui_internetgamelogindialog.h */,
+				59BC77AEEB869BAFDE9B381D /* ui_logfiledialog.h */,
+				ADA8D1D86208E3F6A70CC135 /* ui_changecontentdialog.h */,
+			);
+			name = uics;
+			sourceTree = "<Group>";
+		};
+		F380266849BE7CF802A85CCF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F70494EA204FFA69F5243EEB /* gui */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		F43C1EFD8F82A57A49B4AB38 /* qttools */ = {
+			isa = PBXGroup;
+			children = (
+				F8848622783E7A262383C838 /* qttoolswrapper.cpp */,
+				7380DE4D8F5C0B0E1055BDF7 /* qthelper */,
+				C549F750081A4725511C229F /* qttoolswrapper.h */,
+			);
+			name = qttools;
+			sourceTree = "<Group>";
+		};
+		F65DFC59DAFE9AEE8D226B4C /* network_engine */ = {
+			isa = PBXGroup;
+			children = (
+				8646FA254D6D1BF6672F6A81 /* clientboard.h */,
+				AFC7D4E6EA50B941672CA021 /* clientenginefactory.h */,
+				B940340E1123D47E41501169 /* clienthand.h */,
+				9A3F8996038C579095E80DF4 /* clientplayer.h */,
+				A3B0889036E7679FAF034216 /* clientbero.h */,
+			);
+			name = network_engine;
+			sourceTree = "<Group>";
+		};
+		F70494EA204FFA69F5243EEB /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				E7F3F755D8307477CD03BAA5 /* qt */,
+			);
+			name = gui;
+			sourceTree = "<Group>";
+		};
+		F95D746DAA8FD238E4BAE847 /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				EF1887446B68296B190A7098 /* gametablestylereader.cpp */,
+				21A02FC5F3F2E5625E92AA2C /* carddeckstylereader.cpp */,
+				A7E34FD57901BBF89AF43DB8 /* gametablestylereader.h */,
+				F82B0617232EB85AB5A765C8 /* carddeckstylereader.h */,
+			);
+			name = styles;
+			sourceTree = "<Group>";
+		};
+		FB3C908FA6A710AAAE4CE3AA /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8342E1E26E041F7306DF21A4 /* gui */,
+			);
+			name = src;
+			sourceTree = "<Group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6A45E8CAB954543474F2C2 /* pokerth.app */,
+			);
+			name = Products;
+			sourceTree = "<Group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832EC5904EFE693E72ECBAD7 /* pokerth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "pokerth" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				3DA90DAE39A0C9D07C6F6B0F /* Qt Prelink */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D5F9E884BFCED1D161CFD8 /* PBXTargetDependency */,
+			);
+			name = pokerth;
+			productName = pokerth;
+			productReference = DF6A45E8CAB954543474F2C2 /* pokerth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					832EC5904EFE693E72ECBAD7 = {
+						DevelopmentTeam = JZ5FCN4B97;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "pokerth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* pokerth */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832EC5904EFE693E72ECBAD7 /* pokerth */,
+				554BFF4E445FF0DA20B60823 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B81CEDEB1B47960343844CA /* Default-568h@2x.png in Copy Bundle Resources */,
+				9704C88DC927BAE5D340011E /* LaunchScreen.xib in Copy Bundle Resources */,
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DA90DAE39A0C9D07C6F6B0F /* Qt Prelink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/armv7/",
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/arm64/",
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/i386/",
+				"$(OBJECT_FILE_DIR_$(CURRENT_VARIANT))/x86_64/",
+			);
+			name = "Qt Prelink";
+			outputPaths = (
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_armv7)",
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_arm64)",
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_i386)",
+				"$(LINK_FILE_LIST_$(CURRENT_VARIANT)_x86_64)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/Users/espir/Qt/5.4/ios/mkspecs/macx-ios-clang/rename_main.sh ${OBJECT_FILE_DIR}-${CURRENT_VARIANT} \"${ARCHS}\"";
+		};
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS -f pokerth.xcodeproj/qt_makeqmake.mak";
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS -f pokerth.xcodeproj/qt_preprocess.mak";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01678B6A584E0686FC1575B4 /* qtsingleapplication.cpp in Compile Sources */,
+				84A8B9C2862972A415E3E258 /* qtlocalpeer.cpp in Compile Sources */,
+				889A236A88103746B35C6E92 /* qtlockedfile.cpp in Compile Sources */,
+				16DD85091A290DB2E46862A2 /* qtlockedfile_unix.cpp in Compile Sources */,
+				2EACE37CC364104F6FCDE97B /* pokerth.cpp in Compile Sources */,
+				2B12B378C980A22F1963A1AF /* chattools.cpp in Compile Sources */,
+				820731931E3D67F1A886E0B5 /* guiwrapper.cpp in Compile Sources */,
+				68D2BCA7400260914E0256BE /* qttoolswrapper.cpp in Compile Sources */,
+				4E72DDB5CA11479883805ADA /* qthelper.cpp in Compile Sources */,
+				1D17C0B76C72A95D70D0DE42 /* gametableimpl.cpp in Compile Sources */,
+				F775ADB9CA27CBAC593A4DC1 /* mycardspixmaplabel.cpp in Compile Sources */,
+				9F40690EC3D55D62BC8D3A23 /* mysetlabel.cpp in Compile Sources */,
+				257F159E87711B408328E199 /* myactionbutton.cpp in Compile Sources */,
+				5FA6D2BD7297D5E25DDBF46B /* mystatuslabel.cpp in Compile Sources */,
+				D691C663217CB2AE958C6E15 /* myavatarlabel.cpp in Compile Sources */,
+				2C32368E451A0184DE7BED44 /* myrighttabwidget.cpp in Compile Sources */,
+				A3B2BB111A42EEBEB109A2B8 /* mylefttabwidget.cpp in Compile Sources */,
+				4BCEC5E1300BBF6FD7901057 /* startsplash.cpp in Compile Sources */,
+				1EA76DC656FEE0D7897A5C7A /* guilog.cpp in Compile Sources */,
+				DB1F27B13E0CDAD37808C9B3 /* aboutpokerthimpl.cpp in Compile Sources */,
+				20A0A65BCAA7800DCB96D520 /* connecttoserverdialogimpl.cpp in Compile Sources */,
+				F77FE115DC43C0FB6740E53A /* createnetworkgamedialogimpl.cpp in Compile Sources */,
+				02855A782D51BCC6055BDDBA /* createinternetgamedialogimpl.cpp in Compile Sources */,
+				E597FAEAE7C3EBBEC6A00E01 /* joinnetworkgamedialogimpl.cpp in Compile Sources */,
+				5274E9F4DCD11DC059263342 /* newgamedialogimpl.cpp in Compile Sources */,
+				672A120F84F4FB46F6C697D3 /* settingsdialogimpl.cpp in Compile Sources */,
+				3AC4EA65799CE486E944E9A1 /* myavatarbutton.cpp in Compile Sources */,
+				31E5754E455912822C2F68E7 /* myhpavatarbutton.cpp in Compile Sources */,
+				BCA1166EF4641D0D1239E049 /* selectavatardialogimpl.cpp in Compile Sources */,
+				880E9B782D530C015E5EA297 /* myavatarlistitem.cpp in Compile Sources */,
+				A47390E66451FD86D1166EDB /* manualblindsorderdialogimpl.cpp in Compile Sources */,
+				E5942691E1AC655A68FB49A4 /* startnetworkgamedialogimpl.cpp in Compile Sources */,
+				C00DECF66664CA22713FC48C /* startwindowimpl.cpp in Compile Sources */,
+				37BD610E2956D3F62F947189 /* gametablestylereader.cpp in Compile Sources */,
+				89A2F5143D59CE9C1253A7AA /* carddeckstylereader.cpp in Compile Sources */,
+				D067CB55DE728EF01E648EBE /* changecontentdialogimpl.cpp in Compile Sources */,
+				DA9470C25C57D203C4331D37 /* changecompleteblindsdialogimpl.cpp in Compile Sources */,
+				7EAD40B537E67C4E836A9744 /* mymessagedialogimpl.cpp in Compile Sources */,
+				59B197190FDA8FA31CC07E29 /* gamelobbydialogimpl.cpp in Compile Sources */,
+				B3D807762B25D0F12E0AB8B1 /* mygamelisttreewidget.cpp in Compile Sources */,
+				144861893BED727299041F41 /* timeoutmsgboximpl.cpp in Compile Sources */,
+				143CB6984510B72566790C47 /* net_helper_client.cpp in Compile Sources */,
+				E6532CB1436F9F24C974AC61 /* loghelper_client.cpp in Compile Sources */,
+				5D9BBB46318E6BA3DE0E21C5 /* mychancelabel.cpp in Compile Sources */,
+				C65081AF89E31F5648E3D26D /* serverlistdialogimpl.cpp in Compile Sources */,
+				C5D2A7AA6BF7F9C4A5E78DDD /* mytimeoutlabel.cpp in Compile Sources */,
+				2D726FD9FF64EA41BAA6C102 /* mynamelabel.cpp in Compile Sources */,
+				DF10FC6429362279632B57AE /* mystylelistitem.cpp in Compile Sources */,
+				74FF291332A517CBD2A6116B /* mygamelistsortfilterproxymodel.cpp in Compile Sources */,
+				50D853ECAC85FA15AD6A73B9 /* internetgamelogindialogimpl.cpp in Compile Sources */,
+				6D081AEB4C3C9687E62141AF /* replay.cpp in Compile Sources */,
+				F9C8442123BD3715355E1DE5 /* mynicklistsortfilterproxymodel.cpp in Compile Sources */,
+				65FE531532502E2132385910 /* servermanagerfactoryclient.cpp in Compile Sources */,
+				823D4AD02A64A3EF2442FCCA /* mycashlabel.cpp in Compile Sources */,
+				4AF0D1737211C736E2C353B6 /* soundevents.cpp in Compile Sources */,
+				B491C855E5D9614B3032003A /* mymessagebox.cpp in Compile Sources */,
+				C38151912BE93754024FFB03 /* logfiledialog.cpp in Compile Sources */,
+				3631B7CDD544AEF043C08A08 /* tinystr.cpp in Compile Sources */,
+				C07D47FD71E10992208A5E7E /* tinyxml.cpp in Compile Sources */,
+				654A138B3F8088BE161A6CC5 /* tinyxmlerror.cpp in Compile Sources */,
+				2E59CA632D9094D1E7732277 /* tinyxmlparser.cpp in Compile Sources */,
+				48A0552357D64902706687C2 /* pokerth_plugin_import.cpp in Compile Sources */,
+				5E95B3A9F57D180067069114 /* qrc_pokerth.cpp in Compile Sources */,
+				A4ABED81557B9448B603921B /* moc_qtsingleapplication.cpp in Compile Sources */,
+				F12020F2A1782AF3DE4B7036 /* moc_qtlocalpeer.cpp in Compile Sources */,
+				10101DF93A5217DDE143C85D /* moc_chattools.cpp in Compile Sources */,
+				2731EB9492E5ED84AEAD20FF /* moc_gametableimpl.cpp in Compile Sources */,
+				A9DA845DAD08BF190280FF63 /* moc_mycardspixmaplabel.cpp in Compile Sources */,
+				FAAB9D37044424F3E9DFFA53 /* moc_mysetlabel.cpp in Compile Sources */,
+				163C0F92577E30E71263C08A /* moc_mystatuslabel.cpp in Compile Sources */,
+				35D357C51331554D8859BB13 /* moc_myavatarlabel.cpp in Compile Sources */,
+				8F4917F9166757BC2E9878A7 /* moc_myrighttabwidget.cpp in Compile Sources */,
+				6A7DFA4C6238399CBFF8AC97 /* moc_mylefttabwidget.cpp in Compile Sources */,
+				F832D6ECB2FC2B440D8AB51C /* moc_startsplash.cpp in Compile Sources */,
+				7A0AD830C13786D187F3A9FA /* moc_guilog.cpp in Compile Sources */,
+				4D513983AF4BCDDCED887E68 /* moc_aboutpokerthimpl.cpp in Compile Sources */,
+				F5C8614D7899E44D4784CE54 /* moc_connecttoserverdialogimpl.cpp in Compile Sources */,
+				94EEB06B631189D83F9F0DE0 /* moc_createnetworkgamedialogimpl.cpp in Compile Sources */,
+				DCB7FA0D8BDB1FABAEB76DAC /* moc_createinternetgamedialogimpl.cpp in Compile Sources */,
+				45CF0F656E1A025D58A2B51F /* moc_joinnetworkgamedialogimpl.cpp in Compile Sources */,
+				E053416AA33D2D4D2A4B2176 /* moc_newgamedialogimpl.cpp in Compile Sources */,
+				1A873F1B9DD6B443D253CD0F /* moc_settingsdialogimpl.cpp in Compile Sources */,
+				5E652B7268B65153AF5F2BD6 /* moc_selectavatardialogimpl.cpp in Compile Sources */,
+				3C2DB55A815E37F6FF84B489 /* moc_manualblindsorderdialogimpl.cpp in Compile Sources */,
+				FAF4BF28C89D92B5743EA269 /* moc_startnetworkgamedialogimpl.cpp in Compile Sources */,
+				83E65239190AB259EF899736 /* moc_startwindowimpl.cpp in Compile Sources */,
+				6C1A8379A9AB6E2FA4405C06 /* moc_gametablestylereader.cpp in Compile Sources */,
+				EC0475B810700927E4AC064E /* moc_carddeckstylereader.cpp in Compile Sources */,
+				2FAFCC4A16539AB9A9EA67A9 /* moc_changecontentdialogimpl.cpp in Compile Sources */,
+				CCFB564EA0A4294E7693A8E4 /* moc_changecompleteblindsdialogimpl.cpp in Compile Sources */,
+				573E5BF81AB788CF517C0D9B /* moc_gamelobbydialogimpl.cpp in Compile Sources */,
+				3BF15E5BA717261414776ACD /* moc_mygamelisttreewidget.cpp in Compile Sources */,
+				1EC9F88BD36EBBD07818439B /* moc_timeoutmsgboximpl.cpp in Compile Sources */,
+				77CC8822B138CEC79F49C9C6 /* moc_mymessagedialogimpl.cpp in Compile Sources */,
+				57E0D99E67F8C7C90CD31B6C /* moc_mychancelabel.cpp in Compile Sources */,
+				B5C21A21ED4354D488A19139 /* moc_serverlistdialogimpl.cpp in Compile Sources */,
+				B315A7F2F38DEB13C636C583 /* moc_mytimeoutlabel.cpp in Compile Sources */,
+				2694CA0CA98F156EF3EA67EB /* moc_mynamelabel.cpp in Compile Sources */,
+				59E68554C07AC6F48C6D2DAB /* moc_mygamelistsortfilterproxymodel.cpp in Compile Sources */,
+				BD0AC1CE4AF791191D72652C /* moc_internetgamelogindialogimpl.cpp in Compile Sources */,
+				184BEF80CAA87EE13F47921D /* moc_mynicklistsortfilterproxymodel.cpp in Compile Sources */,
+				D6734FEFDA23043F41651050 /* moc_myslider.cpp in Compile Sources */,
+				AB8F5D9AB48AC27813545E93 /* moc_mycashlabel.cpp in Compile Sources */,
+				C18F5D6429C11D9C0AD2C4B1 /* moc_mymessagebox.cpp in Compile Sources */,
+				DFD14C81505580C1AEAC98F6 /* moc_logfiledialog.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2D5F9E884BFCED1D161CFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 554BFF4E445FF0DA20B60823 /* Qt Preprocess */;
+			targetProxy = 6F87045A1DA2F686001F7C35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = armv7;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/espir/Qt/5.4/ios/mkspecs/macx-ios-clang/ios",
+					src/third_party/qtsingleapplication,
+					src/third_party/qtlockedfile,
+					.,
+					src,
+					src/engine,
+					src/gui,
+					src/net,
+					src/engine/local_engine,
+					src/engine/network_engine,
+					src/config,
+					src/gui/qt,
+					src/gui/qt/connecttoserverdialog,
+					src/core,
+					src/gui/qt/sound,
+					src/gui/qt/qttools,
+					src/gui/qt/chattools,
+					src/gui/qt/qttools/qthelper,
+					src/gui/qt/gametable,
+					src/gui/qt/gametable/startsplash,
+					src/gui/qt/gametable/log,
+					src/gui/qt/aboutpokerth,
+					src/gui/qt/createnetworkgamedialog,
+					src/gui/qt/createinternetgamedialog,
+					src/gui/qt/joinnetworkgamedialog,
+					src/gui/qt/newlocalgamedialog,
+					src/gui/qt/settingsdialog,
+					src/gui/qt/settingsdialog/selectavatardialog,
+					src/gui/qt/settingsdialog/manualblindsorderdialog,
+					src/gui/qt/startnetworkgamedialog,
+					src/gui/qt/startwindow,
+					src/gui/qt/serverlistdialog,
+					src/gui/qt/styles,
+					src/gui/qt/changecontentdialog,
+					src/gui/qt/changecompleteblindsdialog,
+					src/gui/qt/internetgamelogindialog,
+					src/gui/qt/mymessagedialog,
+					src/gui/qt/gamelobbydialog,
+					src/gui/qt/timeoutmsgbox,
+					src/gui/qt/logfiledialog,
+					src/gui/qt/mymessagebox,
+					"../iOS_Libs/build-protobuf/protobuf-master/include",
+					../iOS_Libs/SDL/SDL_mixer,
+					../iOS_Libs/SDL/SDL/include,
+					../iOS_Libs/tinyxml,
+					../iOS_Libs/openssl/include,
+					"../iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/include",
+					"../iOS_Libs/curl/include-32",
+					"../iOS_Libs/zlib/ios/prefix/iphone-build/include",
+					../iOS_Libs/boost/boost155/ios/prefix/include,
+					../iOS_Libs/boost/boost155/ios/framework/boost.framework/Versions/A/Headers,
+					../../../../Qt/5.4/ios/include,
+					../../../../Qt/5.4/ios/include/QtWidgets,
+					../../../../Qt/5.4/ios/include/QtGui,
+					../../../../Qt/5.4/ios/include/QtNetwork,
+					../../../../Qt/5.4/ios/include/QtSql,
+					../../../../Qt/5.4/ios/include/QtCore,
+					mocs,
+					uics,
+					"../../../../Qt/5.4/ios/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/curl/lib,
+					"/Users/espir/Desktop/development/pokerth/iOS_Libs/build-protobuf/protobuf-master/lib",
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/openssl/lib/iOS,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL_mixer,
+					"/Users/espir/Desktop/development/pokerth/iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/lib",
+					"/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/lib",
+					"/Users/espir/Desktop/development/pokerth/iOS_Libs/zlib/ios/prefix/iphone-build/lib/",
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/boost/boost155/ios/build/armv7,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL/lib,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL_mixer/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+					/Users/espir/Qt/5.4/ios/plugins/platforms,
+					/System/Library/Frameworks/,
+					/Users/espir/Qt/5.4/ios/lib,
+					/Users/espir/Qt/5.4/ios/plugins/imageformats,
+					/Users/espir/Qt/5.4/ios/plugins/bearer,
+					/Users/espir/Qt/5.4/ios/plugins/sqldrivers,
+				);
+				OBJROOT = obj/;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DPREFIX=\"/usr\"",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DPREFIX=\"/usr\"",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-u",
+					_qt_registerPlatformPlugin,
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/curl/lib",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/build-protobuf/protobuf-master/lib",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/openssl/lib/iOS",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL_mixer",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/lib",
+					"-L/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/lib",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/zlib/ios/prefix/iphone-build/lib/",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/boost/boost155/ios/build/armv7",
+					"-lsqlite3",
+					"-L/Users/espir/Qt/5.4/ios/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-L/Users/espir/Qt/5.4/ios/lib",
+					"-framework",
+					OpenGLES,
+					"-L/Users/espir/Qt/5.4/ios/plugins/imageformats",
+					"-L/Users/espir/Qt/5.4/ios/plugins/bearer",
+					"-L/Users/espir/Qt/5.4/ios/plugins/sqldrivers",
+					"-lm",
+				);
+				PRODUCT_NAME = pokerth;
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				"ARCHS[sdk=iphoneos*]" = armv7;
+				"ARCHS[sdk=iphonesimulator*]" = i386;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/espir/Qt/5.4/ios/mkspecs/macx-ios-clang/ios",
+					src/third_party/qtsingleapplication,
+					src/third_party/qtlockedfile,
+					.,
+					src,
+					src/engine,
+					src/gui,
+					src/net,
+					src/engine/local_engine,
+					src/engine/network_engine,
+					src/config,
+					src/gui/qt,
+					src/gui/qt/connecttoserverdialog,
+					src/core,
+					src/gui/qt/sound,
+					src/gui/qt/qttools,
+					src/gui/qt/chattools,
+					src/gui/qt/qttools/qthelper,
+					src/gui/qt/gametable,
+					src/gui/qt/gametable/startsplash,
+					src/gui/qt/gametable/log,
+					src/gui/qt/aboutpokerth,
+					src/gui/qt/createnetworkgamedialog,
+					src/gui/qt/createinternetgamedialog,
+					src/gui/qt/joinnetworkgamedialog,
+					src/gui/qt/newlocalgamedialog,
+					src/gui/qt/settingsdialog,
+					src/gui/qt/settingsdialog/selectavatardialog,
+					src/gui/qt/settingsdialog/manualblindsorderdialog,
+					src/gui/qt/startnetworkgamedialog,
+					src/gui/qt/startwindow,
+					src/gui/qt/serverlistdialog,
+					src/gui/qt/styles,
+					src/gui/qt/changecontentdialog,
+					src/gui/qt/changecompleteblindsdialog,
+					src/gui/qt/internetgamelogindialog,
+					src/gui/qt/mymessagedialog,
+					src/gui/qt/gamelobbydialog,
+					src/gui/qt/timeoutmsgbox,
+					src/gui/qt/logfiledialog,
+					src/gui/qt/mymessagebox,
+					"../iOS_Libs/build-protobuf/protobuf-master/include",
+					../iOS_Libs/SDL/SDL_mixer,
+					../iOS_Libs/SDL/SDL/include,
+					../iOS_Libs/tinyxml,
+					../iOS_Libs/openssl/include,
+					"../iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/include",
+					"../iOS_Libs/curl/include-32",
+					"../iOS_Libs/zlib/ios/prefix/iphone-build/include",
+					../iOS_Libs/boost/boost155/ios/prefix/include,
+					../iOS_Libs/boost/boost155/ios/framework/boost.framework/Versions/A/Headers,
+					../../../../Qt/5.4/ios/include,
+					../../../../Qt/5.4/ios/include/QtWidgets,
+					../../../../Qt/5.4/ios/include/QtGui,
+					../../../../Qt/5.4/ios/include/QtNetwork,
+					../../../../Qt/5.4/ios/include/QtSql,
+					../../../../Qt/5.4/ios/include/QtCore,
+					mocs,
+					uics,
+					"../../../../Qt/5.4/ios/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/curl/lib,
+					"/Users/espir/Desktop/development/pokerth/iOS_Libs/build-protobuf/protobuf-master/lib",
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/openssl/lib/iOS,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL_mixer,
+					"/Users/espir/Desktop/development/pokerth/iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/lib",
+					"/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/lib",
+					"/Users/espir/Desktop/development/pokerth/iOS_Libs/zlib/ios/prefix/iphone-build/lib/",
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/boost/boost155/ios/build/armv7,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL/lib,
+					/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL_mixer/lib,
+					/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks,
+					/Users/espir/Qt/5.4/ios/plugins/platforms,
+					/System/Library/Frameworks/,
+					/Users/espir/Qt/5.4/ios/lib,
+					/Users/espir/Qt/5.4/ios/plugins/imageformats,
+					/Users/espir/Qt/5.4/ios/plugins/bearer,
+					/Users/espir/Qt/5.4/ios/plugins/sqldrivers,
+				);
+				OBJROOT = obj/;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DPREFIX=\"/usr\"",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_NO_PRINTER",
+					"-DQT_NO_PRINTDIALOG",
+					"-DENABLE_IPV6",
+					"-DTIXML_USE_STL",
+					"-DBOOST_FILESYSTEM_DEPRECATED",
+					"-DPREFIX=\"/usr\"",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_SQL_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-u",
+					_qt_registerPlatformPlugin,
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/curl/lib",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/build-protobuf/protobuf-master/lib",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/openssl/lib/iOS",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/SDL/SDL_mixer",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/libgsasl/cmoss-RETIRED/tmp/build/ios/iPhoneOS-V7/lib",
+					"-L/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS/lib",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/zlib/ios/prefix/iphone-build/lib/",
+					"-L/Users/espir/Desktop/development/pokerth/iOS_Libs/boost/boost155/ios/build/armv7",
+					"-lsqlite3",
+					"-L/Users/espir/Qt/5.4/ios/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-L/Users/espir/Qt/5.4/ios/lib",
+					"-framework",
+					OpenGLES,
+					"-L/Users/espir/Qt/5.4/ios/plugins/imageformats",
+					"-L/Users/espir/Qt/5.4/ios/plugins/bearer",
+					"-L/Users/espir/Qt/5.4/ios/plugins/sqldrivers",
+					"-lm",
+				);
+				PRODUCT_NAME = pokerth;
+				QT_LIBRARY_SUFFIX = _debug;
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = iphoneos;
+				SYMROOT = "/Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = pokerth;
+				PROVISIONING_PROFILE = "";
+				QT_LIBRARY_SUFFIX = "";
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = pokerth;
+				PROVISIONING_PROFILE = "";
+				QT_LIBRARY_SUFFIX = _debug;
+				"QT_LIBRARY_SUFFIX[sdk=iphonesimulator*]" = "_iphonesimulator$(QT_LIBRARY_SUFFIX)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "pokerth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "pokerth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

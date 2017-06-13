@@ -1,0 +1,44 @@
+dependencies: \
+  /Users/espir/Desktop/development/pokerth/PokerTH-1.1-src_Client_prova-iOS_Per_IPAD3/src/core/common/crypthelper.cpp \
+  src/core/crypthelper.h src/core/openssl_wrapper.h \
+  ../iOS_Libs/openssl/include/openssl/ssl.h \
+  ../iOS_Libs/openssl/include/openssl/e_os2.h \
+  ../iOS_Libs/openssl/include/openssl/opensslconf.h \
+  ../iOS_Libs/openssl/include/openssl/comp.h \
+  ../iOS_Libs/openssl/include/openssl/crypto.h \
+  ../iOS_Libs/openssl/include/openssl/stack.h \
+  ../iOS_Libs/openssl/include/openssl/safestack.h \
+  ../iOS_Libs/openssl/include/openssl/opensslv.h \
+  ../iOS_Libs/openssl/include/openssl/ossl_typ.h \
+  ../iOS_Libs/openssl/include/openssl/symhacks.h \
+  ../iOS_Libs/openssl/include/openssl/bio.h \
+  ../iOS_Libs/openssl/include/openssl/x509.h \
+  ../iOS_Libs/openssl/include/openssl/buffer.h \
+  ../iOS_Libs/openssl/include/openssl/evp.h \
+  ../iOS_Libs/openssl/include/openssl/objects.h \
+  ../iOS_Libs/openssl/include/openssl/obj_mac.h \
+  ../iOS_Libs/openssl/include/openssl/asn1.h \
+  ../iOS_Libs/openssl/include/openssl/bn.h \
+  ../iOS_Libs/openssl/include/openssl/ec.h \
+  ../iOS_Libs/openssl/include/openssl/ecdsa.h \
+  ../iOS_Libs/openssl/include/openssl/ecdh.h \
+  ../iOS_Libs/openssl/include/openssl/rsa.h \
+  ../iOS_Libs/openssl/include/openssl/dsa.h \
+  ../iOS_Libs/openssl/include/openssl/dh.h \
+  ../iOS_Libs/openssl/include/openssl/sha.h \
+  ../iOS_Libs/openssl/include/openssl/x509_vfy.h \
+  ../iOS_Libs/openssl/include/openssl/lhash.h \
+  ../iOS_Libs/openssl/include/openssl/pkcs7.h \
+  ../iOS_Libs/openssl/include/openssl/pem.h \
+  ../iOS_Libs/openssl/include/openssl/pem2.h \
+  ../iOS_Libs/openssl/include/openssl/hmac.h \
+  ../iOS_Libs/openssl/include/openssl/kssl.h \
+  ../iOS_Libs/openssl/include/openssl/ssl2.h \
+  ../iOS_Libs/openssl/include/openssl/ssl3.h \
+  ../iOS_Libs/openssl/include/openssl/tls1.h \
+  ../iOS_Libs/openssl/include/openssl/dtls1.h \
+  ../iOS_Libs/openssl/include/openssl/pqueue.h \
+  ../iOS_Libs/openssl/include/openssl/ssl23.h \
+  ../iOS_Libs/openssl/include/openssl/srtp.h \
+  ../iOS_Libs/openssl/include/openssl/md5.h \
+  ../iOS_Libs/openssl/include/openssl/rand.h
